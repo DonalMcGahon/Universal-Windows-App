@@ -109,23 +109,23 @@ namespace MedicineTracker
             //ButtonRefresh.IsEnabled = true;
         }
 
-        private void ButtonSave_Click(object sender, RoutedEventArgs e)
+        private async void ButtonSave_Click(object sender, RoutedEventArgs e)
         {
             var todoItem = new TodoItem
             {
-                //pName = TextInput.Text,
-                //Med = TextInput2.Text,
-                //Dose = TextInput3.Text,
-                //Time = TextInput4.Text,
-                //Date = textBox_Copy.Text,
+                pName = TextInput.Text,
+                Med = TextInput2.Text,
+                Dose = TextInput3.Text,
+                Time = TextInput4.Text,
+                Date = textBox_Copy.Text,
             };
             TextInput.Text = "";
             TextInput2.Text = "";
             TextInput3.Text = "";
             TextInput4.Text = "";
             textBox_Copy.Text = "";
-            //await InsertTodoItem(todoItem);
-            //this.Frame.Navigate(typeof(MainPage1));
+            await InsertTodoItem(todoItem);
+            this.Frame.Navigate(typeof(MedList));
         }
 
         private async void CheckBoxComplete_Checked(object sender, RoutedEventArgs e)
@@ -182,7 +182,7 @@ namespace MedicineTracker
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            //this.Frame.Navigate(typeof(MainPage1));
+            this.Frame.Navigate(typeof(MedList));
         }
     }
 }

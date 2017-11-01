@@ -1,5 +1,10 @@
-﻿using System.Linq;
+﻿using SQLite.Net;
+using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace MedicineTracker.Common
 {
@@ -13,7 +18,7 @@ namespace MedicineTracker.Common
         {
             // Creating SQLite Database for user login information
             path = Path.Combine(Windows.Storage.ApplicationData.Current.LocalFolder.Path,
-                "db.sqlite");
+                "MEDdb.sqlite");
             conn = new SQLiteConnection(new SQLite.Net.Platform.WinRT.SQLitePlatformWinRT(), path);
             //Create Table
             conn.CreateTable<User>();
@@ -42,7 +47,5 @@ namespace MedicineTracker.Common
             else
                 return false;
         }
-
-
     }
 }
