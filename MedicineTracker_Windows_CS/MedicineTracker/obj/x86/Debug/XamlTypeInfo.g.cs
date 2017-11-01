@@ -132,29 +132,31 @@ namespace MedicineTracker.MedicineTracker_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[10];
-            _typeNameTable[0] = "MedicineTracker.QuickStartTask";
-            _typeNameTable[1] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[2] = "Int32";
-            _typeNameTable[3] = "String";
-            _typeNameTable[4] = "Boolean";
-            _typeNameTable[5] = "MedicineTracker.MainPage";
-            _typeNameTable[6] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[7] = "MedicineTracker.Medicine";
-            _typeNameTable[8] = "MedicineTracker.MedList";
-            _typeNameTable[9] = "MedicineTracker.Register";
+            _typeNameTable = new string[11];
+            _typeNameTable[0] = "MedicineTracker.Appointments";
+            _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[3] = "MedicineTracker.QuickStartTask";
+            _typeNameTable[4] = "Int32";
+            _typeNameTable[5] = "String";
+            _typeNameTable[6] = "Boolean";
+            _typeNameTable[7] = "MedicineTracker.MainPage";
+            _typeNameTable[8] = "MedicineTracker.Medicine";
+            _typeNameTable[9] = "MedicineTracker.MedList";
+            _typeNameTable[10] = "MedicineTracker.Register";
 
-            _typeTable = new global::System.Type[10];
-            _typeTable[0] = typeof(global::MedicineTracker.QuickStartTask);
-            _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[2] = typeof(global::System.Int32);
-            _typeTable[3] = typeof(global::System.String);
-            _typeTable[4] = typeof(global::System.Boolean);
-            _typeTable[5] = typeof(global::MedicineTracker.MainPage);
-            _typeTable[6] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[7] = typeof(global::MedicineTracker.Medicine);
-            _typeTable[8] = typeof(global::MedicineTracker.MedList);
-            _typeTable[9] = typeof(global::MedicineTracker.Register);
+            _typeTable = new global::System.Type[11];
+            _typeTable[0] = typeof(global::MedicineTracker.Appointments);
+            _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[3] = typeof(global::MedicineTracker.QuickStartTask);
+            _typeTable[4] = typeof(global::System.Int32);
+            _typeTable[5] = typeof(global::System.String);
+            _typeTable[6] = typeof(global::System.Boolean);
+            _typeTable[7] = typeof(global::MedicineTracker.MainPage);
+            _typeTable[8] = typeof(global::MedicineTracker.Medicine);
+            _typeTable[9] = typeof(global::MedicineTracker.MedList);
+            _typeTable[10] = typeof(global::MedicineTracker.Register);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -189,11 +191,12 @@ namespace MedicineTracker.MedicineTracker_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_QuickStartTask() { return new global::MedicineTracker.QuickStartTask(); }
-        private object Activate_5_MainPage() { return new global::MedicineTracker.MainPage(); }
-        private object Activate_7_Medicine() { return new global::MedicineTracker.Medicine(); }
-        private object Activate_8_MedList() { return new global::MedicineTracker.MedList(); }
-        private object Activate_9_Register() { return new global::MedicineTracker.Register(); }
+        private object Activate_0_Appointments() { return new global::MedicineTracker.Appointments(); }
+        private object Activate_3_QuickStartTask() { return new global::MedicineTracker.QuickStartTask(); }
+        private object Activate_7_MainPage() { return new global::MedicineTracker.MainPage(); }
+        private object Activate_8_Medicine() { return new global::MedicineTracker.Medicine(); }
+        private object Activate_9_MedList() { return new global::MedicineTracker.MedList(); }
+        private object Activate_10_Register() { return new global::MedicineTracker.Register(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -205,9 +208,24 @@ namespace MedicineTracker.MedicineTracker_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  MedicineTracker.QuickStartTask
+            case 0:   //  MedicineTracker.Appointments
+                userType = new global::MedicineTracker.MedicineTracker_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_0_Appointments;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 1:   //  Windows.UI.Xaml.Controls.Page
+                xamlType = new global::MedicineTracker.MedicineTracker_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 2:   //  Windows.UI.Xaml.Controls.UserControl
+                xamlType = new global::MedicineTracker.MedicineTracker_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 3:   //  MedicineTracker.QuickStartTask
                 userType = new global::MedicineTracker.MedicineTracker_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_0_QuickStartTask;
+                userType.Activator = Activate_3_QuickStartTask;
                 userType.AddMemberName("Number");
                 userType.AddMemberName("Title");
                 userType.AddMemberName("Description");
@@ -216,50 +234,42 @@ namespace MedicineTracker.MedicineTracker_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 1:   //  Windows.UI.Xaml.Controls.UserControl
+            case 4:   //  Int32
                 xamlType = new global::MedicineTracker.MedicineTracker_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 2:   //  Int32
+            case 5:   //  String
                 xamlType = new global::MedicineTracker.MedicineTracker_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  String
+            case 6:   //  Boolean
                 xamlType = new global::MedicineTracker.MedicineTracker_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 4:   //  Boolean
-                xamlType = new global::MedicineTracker.MedicineTracker_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 5:   //  MedicineTracker.MainPage
+            case 7:   //  MedicineTracker.MainPage
                 userType = new global::MedicineTracker.MedicineTracker_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_5_MainPage;
+                userType.Activator = Activate_7_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 6:   //  Windows.UI.Xaml.Controls.Page
-                xamlType = new global::MedicineTracker.MedicineTracker_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 7:   //  MedicineTracker.Medicine
+            case 8:   //  MedicineTracker.Medicine
                 userType = new global::MedicineTracker.MedicineTracker_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_7_Medicine;
+                userType.Activator = Activate_8_Medicine;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 8:   //  MedicineTracker.MedList
+            case 9:   //  MedicineTracker.MedList
                 userType = new global::MedicineTracker.MedicineTracker_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_8_MedList;
+                userType.Activator = Activate_9_MedList;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 9:   //  MedicineTracker.Register
+            case 10:   //  MedicineTracker.Register
                 userType = new global::MedicineTracker.MedicineTracker_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_9_Register;
+                userType.Activator = Activate_10_Register;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

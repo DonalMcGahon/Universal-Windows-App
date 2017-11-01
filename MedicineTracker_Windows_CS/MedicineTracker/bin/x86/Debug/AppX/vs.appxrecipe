@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-11-01T18:21:20.030</Modified>
+      <Modified>2017-11-01T18:45:19.881</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Debug\MedicineTracker.exe">
       <PackagePath>entrypoint\MedicineTracker.exe</PackagePath>
-      <Modified>2017-11-01T18:17:58.156</Modified>
+      <Modified>2017-11-01T18:45:03.015</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dmcga\.nuget\packages\Microsoft.Azure.Mobile.Client\3.1.0\lib\netcore45\Microsoft.WindowsAzure.Mobile.Ext.dll">
       <PackagePath>Microsoft.WindowsAzure.Mobile.Ext.dll</PackagePath>
@@ -588,7 +588,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Debug\MedicineTracker.xr.xml">
       <PackagePath>MedicineTracker.xr.xml</PackagePath>
-      <Modified>2017-11-01T18:00:26.193</Modified>
+      <Modified>2017-11-01T18:44:29.810</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -597,11 +597,11 @@
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-11-01T18:21:17.450</Modified>
+      <Modified>2017-11-01T18:45:16.960</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Debug\Core\MedicineTracker.exe">
       <PackagePath>MedicineTracker.exe</PackagePath>
-      <Modified>2017-11-01T18:21:20.009</Modified>
+      <Modified>2017-11-01T18:45:19.864</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -184,5 +184,10 @@ namespace MedicineTracker
         {
             this.Frame.Navigate(typeof(MedList));
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Appointments));
+        }
     }
 }

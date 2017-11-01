@@ -37,5 +37,6 @@
 
         </StackPanel>
         <Button x:Name="button" Content="Dosages" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="125,540,0,0" Click="button_Click"/>
+        <Button x:Name="button1" Content="Appointments" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="125,580,0,0" Click="button1_Click"/>
     </Grid>
 </Page>
