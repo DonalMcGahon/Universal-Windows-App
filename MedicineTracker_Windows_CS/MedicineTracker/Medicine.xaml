@@ -6,6 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
+    
 
     <Grid x:Name="LayoutRoot" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
@@ -38,5 +39,6 @@
         </StackPanel>
         <Button x:Name="button" Content="Dosages" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="125,540,0,0" Click="button_Click"/>
         <Button x:Name="button1" Content="Appointments" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="125,580,0,0" Click="button1_Click"/>
+        <Button x:Name="button2" Content="WelcomePage" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="125,615,0,0" Click="button2_Click"/>
     </Grid>
 </Page>

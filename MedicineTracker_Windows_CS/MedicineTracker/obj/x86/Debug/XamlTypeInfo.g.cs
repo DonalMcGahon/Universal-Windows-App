@@ -132,7 +132,7 @@ namespace MedicineTracker.MedicineTracker_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[11];
+            _typeNameTable = new string[12];
             _typeNameTable[0] = "MedicineTracker.Appointments";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -144,8 +144,9 @@ namespace MedicineTracker.MedicineTracker_XamlTypeInfo
             _typeNameTable[8] = "MedicineTracker.Medicine";
             _typeNameTable[9] = "MedicineTracker.MedList";
             _typeNameTable[10] = "MedicineTracker.Register";
+            _typeNameTable[11] = "MedicineTracker.WelcomePage";
 
-            _typeTable = new global::System.Type[11];
+            _typeTable = new global::System.Type[12];
             _typeTable[0] = typeof(global::MedicineTracker.Appointments);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -157,6 +158,7 @@ namespace MedicineTracker.MedicineTracker_XamlTypeInfo
             _typeTable[8] = typeof(global::MedicineTracker.Medicine);
             _typeTable[9] = typeof(global::MedicineTracker.MedList);
             _typeTable[10] = typeof(global::MedicineTracker.Register);
+            _typeTable[11] = typeof(global::MedicineTracker.WelcomePage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -197,6 +199,7 @@ namespace MedicineTracker.MedicineTracker_XamlTypeInfo
         private object Activate_8_Medicine() { return new global::MedicineTracker.Medicine(); }
         private object Activate_9_MedList() { return new global::MedicineTracker.MedList(); }
         private object Activate_10_Register() { return new global::MedicineTracker.Register(); }
+        private object Activate_11_WelcomePage() { return new global::MedicineTracker.WelcomePage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -270,6 +273,13 @@ namespace MedicineTracker.MedicineTracker_XamlTypeInfo
             case 10:   //  MedicineTracker.Register
                 userType = new global::MedicineTracker.MedicineTracker_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_10_Register;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 11:   //  MedicineTracker.WelcomePage
+                userType = new global::MedicineTracker.MedicineTracker_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_11_WelcomePage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
