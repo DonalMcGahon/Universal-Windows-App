@@ -11,9 +11,9 @@
 
         <StackPanel VerticalAlignment="Top" Margin="0,40,0,0" HorizontalAlignment="Center" Width="350">
 
-            <TextBlock x:Uid="Heading" Text="Add an Event to Your Calendar" Width="auto" Height="40" FontSize="20"></TextBlock>
-            <TextBlock x:Uid="Subject" Text="Subject:"/>
-            <TextBox Name="Subject" x:Uid="SubjectPlace" PlaceholderText="Subject" Margin="0,5,0,0" Width="auto"></TextBox>
+            <TextBlock x:Uid="Heading" Text="Add an Appointment to Your Calendar" Width="auto" Height="40" FontSize="20"></TextBlock>
+            <TextBlock x:Uid="Subject" Text="Appointment Name:"/>
+            <TextBox Name="Subject" x:Uid="SubjectPlace" PlaceholderText="Appointment" Margin="0,5,0,0" Width="auto"></TextBox>
             <TextBlock x:Uid="Location" Text="Location:"/>
             <TextBox Name="Location" x:Uid="LocationPlace" PlaceholderText="Location" Margin="0,5,0,0" Width="auto"></TextBox>
             <TextBlock x:Uid="Deatils" Text="Details:"/>
@@ -42,7 +42,7 @@
 
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,340,0,0" Width="300">
 
-            <Button x:Name="Add" x:Uid="AddToCal" Content="Add" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="38" Background="AliceBlue" Foreground="DarkBlue" Style="{StaticResource MyButtonStyle}"/>
+            <Button x:Name="Add" x:Uid="AddToCal" Content="Add" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="38" Background="AliceBlue" Foreground="DarkBlue" Style="{StaticResource MyButtonStyle}" Click="Add_Click"/>
             <Button x:Name="Calendar" x:Uid="OpenCalendar" Content="Calendar" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="38" Width="auto" Margin="0,10,0,0" Background="AliceBlue" Foreground="DarkBlue" Style="{StaticResource MyButtonStyle}"/>
 
         </StackPanel>
