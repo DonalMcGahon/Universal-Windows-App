@@ -46,5 +46,10 @@ namespace MedicineTracker
         {
             this.Frame.Navigate(typeof(Appointments));
         }
+
+        private void MenuButton4_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
+        }
     }
 }

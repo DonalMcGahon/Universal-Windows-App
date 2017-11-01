@@ -6,40 +6,71 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-    
 
-    <Grid x:ConnectionId='1' x:Name="LayoutRoot" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-        <StackPanel x:ConnectionId='2' x:Name="addMedPanel" Orientation="Vertical" Margin="10,10,87,10">
-            <!--TitleGrid contains the name of the application and page title-->
-            <Grid x:ConnectionId='6' x:Name="TitleGrid" Grid.Row="0" Grid.ColumnSpan="2" Margin="0,0,0,0">
-                <StackPanel>
-                    <TextBlock Foreground="#0094ff" FontFamily="Segoe UI Light" FontSize="35" Margin="0,0,0,5">Medicine Tracker</TextBlock>
+    <SplitView x:ConnectionId='1' x:Name="MySplitView" DisplayMode="CompactOverlay"  IsPaneOpen="False" 
+               CompactPaneLength="50" OpenPaneLength="150">
+        <SplitView.Pane>
+            <StackPanel Background="Gray">
+                <Button x:ConnectionId='2' x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
+                    Width="50" Height="50" Background="Transparent"                              />
+
+                <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='5' x:Name="MenuButton1" FontFamily="Segoe MDL2 Assets" Content="&#xE70F;"
+                   Width="50" Height="50" Background="Transparent"                          />
+                    <TextBlock Text="Add Meds" FontSize="16" VerticalAlignment="Center" />
                 </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='4' x:Name="MenuButton2" FontFamily="Segoe MDL2 Assets" Content="&#xE779;"
+                       Width="50" Height="50" Background="Transparent"                          />
+                    <TextBlock Text="Medication" FontSize="16" VerticalAlignment="Center" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='3' x:Name="MenuButton3" FontFamily="Segoe MDL2 Assets" Content="&#xE8CF;"
+                       Width="50" Height="50" Background="Transparent"                          />
+                    <TextBlock Text="Appointments" FontSize="16" VerticalAlignment="Center" />
+                </StackPanel>
+
+            </StackPanel>
+        </SplitView.Pane>
+        <SplitView.Content>
+            <Grid>
+                <TextBlock Text="SplitView Basic" FontSize="54" Foreground="White"
+                          HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+                <StackPanel x:ConnectionId='6' x:Name="addMedPanel" Orientation="Vertical" Margin="10,10,87,10">
+                    <!--TitleGrid contains the name of the application and page title-->
+                    <Grid x:ConnectionId='10' x:Name="TitleGrid" Grid.Row="0" Grid.ColumnSpan="2" Margin="0,0,0,0">
+                        <StackPanel>
+                            <TextBlock Foreground="#0094ff" FontFamily="Segoe UI Light" FontSize="35" Margin="0,0,0,5">Medicine Tracker</TextBlock>
+                        </StackPanel>
+                    </Grid>
+                    <TextBlock Margin="5" Text="Patient Name:" FontSize="20"></TextBlock>
+                    <TextBox x:ConnectionId='11' Margin="5,5,5,5" Name="TextInput" PlaceholderText="Name" VerticalAlignment="Center"                            ></TextBox>
+                    <TextBlock Margin="5" Text="Patient Medicine:" FontSize="20"></TextBlock>
+                    <TextBox x:ConnectionId='12' Name="TextInput2" Margin="5,5,5,5"                             PlaceholderText="Medicine"></TextBox>
+                    <TextBlock Margin="5" Text="Patient Dosage:" FontSize="20"></TextBlock>
+                    <TextBox x:ConnectionId='13' Name="TextInput3" Margin="5,5,5,5"                             PlaceholderText="Doseage"></TextBox>
+                    <TextBlock Margin="5" Text="Time to be Taken:" FontSize="20"></TextBlock>
+                    <TextBox x:ConnectionId='14' Name="TextInput4" Margin="5,5,5,5"                             PlaceholderText="00:00"></TextBox>
+                    <TextBlock Margin="5" Text="Date:" FontSize="20"></TextBlock>
+                    <TextBox x:ConnectionId='15' x:Name="textBox_Copy" x:Uid="DuePlace" PlaceholderText="Due Date"                             HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="5,5,0,5" Width="251"/>
+                    <CalendarDatePicker x:ConnectionId='16' x:Name="calendar" Width="0" Height="0"                                              />
+
+
+                    <Button x:ConnectionId='17' Name="ButtonSave" VerticalAlignment="Center" Foreground="Red" Background="LightSalmon" Content="Button" Width="80" Margin="110,8,8,8" Height="50"                          Style="{StaticResource MyButtonStyle}">
+                    </Button>
+                </StackPanel>
+
+                <StackPanel Margin="10,4,9.667,-114" Grid.Row="1">
+
+                </StackPanel>
+                <Button x:ConnectionId='7' x:Name="button" Content="Dosages" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="125,540,0,0"                     />
+                <Button x:ConnectionId='8' x:Name="button1" Content="Appointments" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="125,580,0,0"                      />
+                <Button x:ConnectionId='9' x:Name="button2" Content="WelcomePage" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="125,615,0,0"                      />
+
             </Grid>
-            <TextBlock Margin="5" Text="Patient Name:" FontSize="20"></TextBlock>
-            <TextBox x:ConnectionId='7' Margin="5,5,5,5" Name="TextInput" PlaceholderText="Name" VerticalAlignment="Center"                            ></TextBox>
-            <TextBlock Margin="5" Text="Patient Medicine:" FontSize="20"></TextBlock>
-            <TextBox x:ConnectionId='8' Name="TextInput2" Margin="5,5,5,5"                             PlaceholderText="Medicine"></TextBox>
-            <TextBlock Margin="5" Text="Patient Dosage:" FontSize="20"></TextBlock>
-            <TextBox x:ConnectionId='9' Name="TextInput3" Margin="5,5,5,5"                             PlaceholderText="Doseage"></TextBox>
-            <TextBlock Margin="5" Text="Time to be Taken:" FontSize="20"></TextBlock>
-            <TextBox x:ConnectionId='10' Name="TextInput4" Margin="5,5,5,5"                             PlaceholderText="00:00"></TextBox>
-            <TextBlock Margin="5" Text="Date:" FontSize="20"></TextBlock>
-            <TextBox x:ConnectionId='11' x:Name="textBox_Copy" x:Uid="DuePlace" PlaceholderText="Due Date"                             HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="5,5,0,5" Width="251"/>
-            <CalendarDatePicker x:ConnectionId='12' x:Name="calendar" Width="0" Height="0"                                              />
-
-
-            <Button x:ConnectionId='13' Name="ButtonSave" VerticalAlignment="Center" Foreground="Red" Background="LightSalmon" Content="Button" Width="80" Margin="110,8,8,8" Height="50"                          Style="{StaticResource MyButtonStyle}">
-            </Button>
-        </StackPanel>
-
-        <StackPanel Margin="10,4,9.667,-114" Grid.Row="1">
-
-        </StackPanel>
-        <Button x:ConnectionId='3' x:Name="button" Content="Dosages" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="125,540,0,0"                     />
-        <Button x:ConnectionId='4' x:Name="button1" Content="Appointments" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="125,580,0,0"                      />
-        <Button x:ConnectionId='5' x:Name="button2" Content="WelcomePage" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="125,615,0,0"                      />
-    </Grid>
+        </SplitView.Content>
+    </SplitView>
 </Page>
 

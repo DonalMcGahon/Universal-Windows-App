@@ -59,5 +59,31 @@ namespace MedicineTracker
             Location.Text = string.Empty;
             Duration.SelectedIndex = 0;
         }
+
+        private async void Calendar_Click(object sender, RoutedEventArgs e)
+        {
+            // Opens Calendar App on the Current Date and Time
+            await AppointmentManager.ShowTimeFrameAsync(StartDate.Date, StartTime.Time);
+        }
+
+        private void HamburgerButton_Click(object sender, RoutedEventArgs e)
+        {
+            MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
+        }
+
+        private void MenuButton1_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Medicine));
+        }
+
+        private void MenuButton2_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MedList));
+        }
+
+        private void MenuButton3_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Appointments));
+        }
     }
 }

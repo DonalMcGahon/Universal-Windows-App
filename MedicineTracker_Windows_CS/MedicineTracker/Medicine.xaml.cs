@@ -194,5 +194,25 @@ namespace MedicineTracker
         {
             this.Frame.Navigate(typeof(WelcomePage));
         }
+
+        private void HamburgerButton_Click(object sender, RoutedEventArgs e)
+        {
+            MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
+        }
+
+        private void MenuButton1_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Medicine));
+        }
+
+        private void MenuButton2_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MedList));
+        }
+
+        private void MenuButton3_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Appointments));
+        }
     }
 }

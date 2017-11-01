@@ -29,6 +29,11 @@
                        Width="50" Height="50" Background="Transparent" Click="MenuButton3_Click"/>
                     <TextBlock Text="Appointments" FontSize="16" VerticalAlignment="Center" />
                 </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="MenuButton4" FontFamily="Segoe MDL2 Assets" Content="&#xE1D6;"
+                       Width="50" Height="50" Background="Transparent" Click="MenuButton4_Click"/>
+                    <TextBlock Text="Sign Out" FontSize="16" VerticalAlignment="Center" />
+                </StackPanel>
                 
             </StackPanel>
         </SplitView.Pane>

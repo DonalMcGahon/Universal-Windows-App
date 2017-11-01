@@ -7,7 +7,81 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <SplitView x:Name="MySplitView" DisplayMode="CompactOverlay"  IsPaneOpen="False" 
+               CompactPaneLength="50" OpenPaneLength="150">
+        <SplitView.Pane>
+            <StackPanel Background="Gray">
+                <Button x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
+                    Width="50" Height="50" Background="Transparent" Click="HamburgerButton_Click"/>
+
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="MenuButton1" FontFamily="Segoe MDL2 Assets" Content="&#xE70F;"
+                   Width="50" Height="50" Background="Transparent" Click="MenuButton1_Click"/>
+                    <TextBlock Text="Add Meds" FontSize="16" VerticalAlignment="Center" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="MenuButton2" FontFamily="Segoe MDL2 Assets" Content="&#xE779;"
+                       Width="50" Height="50" Background="Transparent" Click="MenuButton2_Click"/>
+                    <TextBlock Text="Medication" FontSize="16" VerticalAlignment="Center" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="MenuButton3" FontFamily="Segoe MDL2 Assets" Content="&#xE8CF;"
+                       Width="50" Height="50" Background="Transparent" Click="MenuButton3_Click"/>
+                    <TextBlock Text="Appointments" FontSize="16" VerticalAlignment="Center" />
+                </StackPanel>
+
+            </StackPanel>
+        </SplitView.Pane>
+        <SplitView.Content>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="79*"/>
+                    <RowDefinition Height="561*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="SplitView Basic" FontSize="54" Foreground="White"
+                          HorizontalAlignment="Center" VerticalAlignment="Center" Margin="-21,204.526,-22,284" Grid.Row="1"/>
+
+                <Button Name="BackButton" Width="50" Height="30" Margin="40,50,0,560" Click="BackButton_Click" Grid.RowSpan="2">
+                    <SymbolIcon Symbol="Back"/>
+                </Button>
+
+                <ScrollViewer Grid.Row="1" Margin="10,90.526,0,0" 
+                              ScrollViewer.VerticalScrollBarVisibility="Visible" 
+                              VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+
+
+                    <ListView Header="Checkbox    Patient     Med       Dose         Time         Date" x:Name="ListItems" Background="White" HorizontalAlignment="Left" Width="400">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Width="400">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <CheckBox x:Name="CheckBoxComplete" 
+                                          IsChecked="{Binding Complete, Mode=TwoWay}" 
+                                          Checked="CheckBoxComplete_Checked" 
+                                          MaxWidth="550"
+                                          VerticalAlignment="Center"/>
+                                    <!--Bind data to ListView Item, here I just bind items for Medications-->
+                                    <TextBlock Grid.Column="1" x:Name="medDose" Text="{Binding pName}" TextWrapping="Wrap" />
+                                    <TextBlock Grid.Column="2" x:Name="medDose1" Text="{Binding Med}" TextWrapping="Wrap" />
+                                    <TextBlock Grid.Column="3" x:Name="medDose2" Text="{Binding Dose}" TextWrapping="Wrap" />
+                                    <TextBlock Grid.Column="4" x:Name="medDose3" Text="{Binding Time}" TextWrapping="Wrap" />
+                                    <TextBlock Grid.Column="5" x:Name="medDose4" Text="{Binding Date}" TextWrapping="Wrap" />
+                                </Grid>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+
+                </ScrollViewer>
+            </Grid>
+        </SplitView.Content>
+
 
         <!--<RelativePanel Grid.Row="0" Grid.ColumnSpan="2" Margin="0,0,10,0">
             <local:QuickStartTask x:Name="quickStartTaskQuery" Number="2" Title="Query and Update Data" Description="Click refresh below to load the unfinished TodoItems from your hosted service"/>
@@ -20,45 +94,6 @@
             </Button>
         </RelativePanel>-->
 
+    </SplitView>
 
-        <Button Name="BackButton" Width="50" Height="30" Margin="40,0,0,510" Click="BackButton_Click">
-            <SymbolIcon Symbol="Back"/>
-        </Button>
-
-        <ScrollViewer Grid.Row="1" Margin="10,170,0,0" 
-                              ScrollViewer.VerticalScrollBarVisibility="Visible" 
-                              VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
-
-
-            <ListView Header="Checkbox    Patient     Med       Dose         Time         Date" x:Name="ListItems" Background="White" HorizontalAlignment="Left" Width="400">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <Grid Width="400">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="*" />
-                                <ColumnDefinition Width="*" />
-                                <ColumnDefinition Width="*" />
-                                <ColumnDefinition Width="*" />
-                                <ColumnDefinition Width="*" />
-                                <ColumnDefinition Width="*" />
-                            </Grid.ColumnDefinitions>
-                            <CheckBox x:Name="CheckBoxComplete" 
-                                          IsChecked="{Binding Complete, Mode=TwoWay}" 
-                                          Checked="CheckBoxComplete_Checked" 
-                                          MaxWidth="550"
-                                          VerticalAlignment="Center"/>
-                            <!--Bind data to ListView Item, here I just bind items for Medications-->
-                            <TextBlock Grid.Column="1" x:Name="medDose" Text="{Binding pName}" TextWrapping="Wrap" />
-                            <TextBlock Grid.Column="2" x:Name="medDose1" Text="{Binding Med}" TextWrapping="Wrap" />
-                            <TextBlock Grid.Column="3" x:Name="medDose2" Text="{Binding Dose}" TextWrapping="Wrap" />
-                            <TextBlock Grid.Column="4" x:Name="medDose3" Text="{Binding Time}" TextWrapping="Wrap" />
-                            <TextBlock Grid.Column="5" x:Name="medDose4" Text="{Binding Date}" TextWrapping="Wrap" />
-                        </Grid>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
-
-        </ScrollViewer>
-
-    </Grid>
 </Page>

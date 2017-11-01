@@ -6,39 +6,70 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-    
 
-    <Grid x:Name="LayoutRoot" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-        <StackPanel x:Name="addMedPanel" Orientation="Vertical" Margin="10,10,87,10">
-            <!--TitleGrid contains the name of the application and page title-->
-            <Grid x:Name="TitleGrid" Grid.Row="0" Grid.ColumnSpan="2" Margin="0,0,0,0">
-                <StackPanel>
-                    <TextBlock Foreground="#0094ff" FontFamily="Segoe UI Light" FontSize="35" Margin="0,0,0,5">Medicine Tracker</TextBlock>
+    <SplitView x:Name="MySplitView" DisplayMode="CompactOverlay"  IsPaneOpen="False" 
+               CompactPaneLength="50" OpenPaneLength="150">
+        <SplitView.Pane>
+            <StackPanel Background="Gray">
+                <Button x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
+                    Width="50" Height="50" Background="Transparent" Click="HamburgerButton_Click"/>
+
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="MenuButton1" FontFamily="Segoe MDL2 Assets" Content="&#xE70F;"
+                   Width="50" Height="50" Background="Transparent" Click="MenuButton1_Click"/>
+                    <TextBlock Text="Add Meds" FontSize="16" VerticalAlignment="Center" />
                 </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="MenuButton2" FontFamily="Segoe MDL2 Assets" Content="&#xE779;"
+                       Width="50" Height="50" Background="Transparent" Click="MenuButton2_Click"/>
+                    <TextBlock Text="Medication" FontSize="16" VerticalAlignment="Center" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="MenuButton3" FontFamily="Segoe MDL2 Assets" Content="&#xE8CF;"
+                       Width="50" Height="50" Background="Transparent" Click="MenuButton3_Click"/>
+                    <TextBlock Text="Appointments" FontSize="16" VerticalAlignment="Center" />
+                </StackPanel>
+
+            </StackPanel>
+        </SplitView.Pane>
+        <SplitView.Content>
+            <Grid>
+                <TextBlock Text="SplitView Basic" FontSize="54" Foreground="White"
+                          HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+                <StackPanel x:Name="addMedPanel" Orientation="Vertical" Margin="10,10,87,10">
+                    <!--TitleGrid contains the name of the application and page title-->
+                    <Grid x:Name="TitleGrid" Grid.Row="0" Grid.ColumnSpan="2" Margin="0,0,0,0">
+                        <StackPanel>
+                            <TextBlock Foreground="#0094ff" FontFamily="Segoe UI Light" FontSize="35" Margin="0,0,0,5">Medicine Tracker</TextBlock>
+                        </StackPanel>
+                    </Grid>
+                    <TextBlock Margin="5" Text="Patient Name:" FontSize="20"></TextBlock>
+                    <TextBox Margin="5,5,5,5" Name="TextInput" PlaceholderText="Name" VerticalAlignment="Center" KeyDown="TextInput_KeyDown"></TextBox>
+                    <TextBlock Margin="5" Text="Patient Medicine:" FontSize="20"></TextBlock>
+                    <TextBox Name="TextInput2" Margin="5,5,5,5" KeyDown="TextInput_KeyDown" PlaceholderText="Medicine"></TextBox>
+                    <TextBlock Margin="5" Text="Patient Dosage:" FontSize="20"></TextBlock>
+                    <TextBox Name="TextInput3" Margin="5,5,5,5" KeyDown="TextInput_KeyDown" PlaceholderText="Doseage"></TextBox>
+                    <TextBlock Margin="5" Text="Time to be Taken:" FontSize="20"></TextBlock>
+                    <TextBox Name="TextInput4" Margin="5,5,5,5" KeyDown="TextInput_KeyDown" PlaceholderText="00:00"></TextBox>
+                    <TextBlock Margin="5" Text="Date:" FontSize="20"></TextBlock>
+                    <TextBox x:Name="textBox_Copy" x:Uid="DuePlace" PlaceholderText="Due Date" GotFocus="textBox_GotFocus" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="5,5,0,5" Width="251"/>
+                    <CalendarDatePicker x:Name="calendar" Width="0" Height="0" DateChanged="CalendarDatePicker_DateChanged" />
+
+
+                    <Button Name="ButtonSave" VerticalAlignment="Center" Foreground="Red" Background="LightSalmon" Content="Button" Width="80" Margin="110,8,8,8" Height="50" Click="ButtonSave_Click" Style="{StaticResource MyButtonStyle}">
+                    </Button>
+                </StackPanel>
+
+                <StackPanel Margin="10,4,9.667,-114" Grid.Row="1">
+
+                </StackPanel>
+                <Button x:Name="button" Content="Dosages" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="125,540,0,0" Click="button_Click"/>
+                <Button x:Name="button1" Content="Appointments" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="125,580,0,0" Click="button1_Click"/>
+                <Button x:Name="button2" Content="WelcomePage" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="125,615,0,0" Click="button2_Click"/>
+
             </Grid>
-            <TextBlock Margin="5" Text="Patient Name:" FontSize="20"></TextBlock>
-            <TextBox Margin="5,5,5,5" Name="TextInput" PlaceholderText="Name" VerticalAlignment="Center" KeyDown="TextInput_KeyDown"></TextBox>
-            <TextBlock Margin="5" Text="Patient Medicine:" FontSize="20"></TextBlock>
-            <TextBox Name="TextInput2" Margin="5,5,5,5" KeyDown="TextInput_KeyDown" PlaceholderText="Medicine"></TextBox>
-            <TextBlock Margin="5" Text="Patient Dosage:" FontSize="20"></TextBlock>
-            <TextBox Name="TextInput3" Margin="5,5,5,5" KeyDown="TextInput_KeyDown" PlaceholderText="Doseage"></TextBox>
-            <TextBlock Margin="5" Text="Time to be Taken:" FontSize="20"></TextBlock>
-            <TextBox Name="TextInput4" Margin="5,5,5,5" KeyDown="TextInput_KeyDown" PlaceholderText="00:00"></TextBox>
-            <TextBlock Margin="5" Text="Date:" FontSize="20"></TextBlock>
-            <TextBox x:Name="textBox_Copy" x:Uid="DuePlace" PlaceholderText="Due Date" GotFocus="textBox_GotFocus" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="5,5,0,5" Width="251"/>
-            <CalendarDatePicker x:Name="calendar" Width="0" Height="0" DateChanged="CalendarDatePicker_DateChanged" />
-
-
-            <Button Name="ButtonSave" VerticalAlignment="Center" Foreground="Red" Background="LightSalmon" Content="Button" Width="80" Margin="110,8,8,8" Height="50" Click="ButtonSave_Click" Style="{StaticResource MyButtonStyle}">
-            </Button>
-        </StackPanel>
-
-        <StackPanel Margin="10,4,9.667,-114" Grid.Row="1">
-
-        </StackPanel>
-        <Button x:Name="button" Content="Dosages" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="125,540,0,0" Click="button_Click"/>
-        <Button x:Name="button1" Content="Appointments" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="125,580,0,0" Click="button1_Click"/>
-        <Button x:Name="button2" Content="WelcomePage" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="125,615,0,0" Click="button2_Click"/>
-    </Grid>
+        </SplitView.Content>
+    </SplitView>
 </Page>
