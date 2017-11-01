@@ -34,9 +34,9 @@
             <!-- Email Address -->
             <TextBox x:Name="txtEmail" x:Uid="Email" PlaceholderText="E-Mail" Margin="8 24 8 0" Grid.Row="2"/>
             <!-- Register Button-->
-            <Button x:Name="btnRegister" x:Uid="Reg" Content="Register" Foreground="White" HorizontalAlignment="Stretch" Margin="8 0 8 24" Background="#00cc69" Grid.Row="4" Click="btnRegister_Click"/>
+            <Button x:Name="btnRegister" x:Uid="Reg" Content="Register" Height="40" Foreground="White" HorizontalAlignment="Stretch" Margin="8 0 8 24" Background="#00cc69" Grid.Row="4" Click="btnRegister_Click" Style="{StaticResource MyButtonStyle}"/>
             <!-- Back to Login Page Button -->
-            <Button x:Name="backButton" x:Uid="BacktoLogin" Content="Back to Login" Foreground="White" HorizontalAlignment="Stretch" Margin="8 100 8 24" Background="#FF4C42AB" Grid.Row="4" Click="backButton_Click"/>
+            <Button x:Name="backButton" x:Uid="BacktoLogin" Content="Back to Login" Height="40" Foreground="White" HorizontalAlignment="Stretch" Margin="8 100 8 24" Background="#FF4C42AB" Grid.Row="4" Click="backButton_Click" Style="{StaticResource MyButtonStyle}"/>
 
         </Grid>
 

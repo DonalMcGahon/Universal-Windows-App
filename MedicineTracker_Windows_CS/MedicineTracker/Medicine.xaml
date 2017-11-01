@@ -11,7 +11,7 @@
     <SplitView x:Name="MySplitView" DisplayMode="CompactOverlay"  IsPaneOpen="False" 
                CompactPaneLength="50" OpenPaneLength="150">
         <SplitView.Pane>
-            <StackPanel Background="Gray">
+            <StackPanel Background="CornflowerBlue">
                 <Button x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
                     Width="50" Height="50" Background="Transparent" Click="HamburgerButton_Click"/>
 
@@ -29,6 +29,11 @@
                     <Button x:Name="MenuButton3" FontFamily="Segoe MDL2 Assets" Content="&#xE8CF;"
                        Width="50" Height="50" Background="Transparent" Click="MenuButton3_Click"/>
                     <TextBlock Text="Appointments" FontSize="16" VerticalAlignment="Center" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="MenuButton4" FontFamily="Segoe MDL2 Assets" Content="&#xE830;"
+                       Width="50" Height="50" Background="Transparent" Click="MenuButton4_Click"/>
+                    <TextBlock Text="Sign Out" FontSize="16" VerticalAlignment="Center" />
                 </StackPanel>
 
             </StackPanel>
@@ -58,15 +63,13 @@
                     <CalendarDatePicker x:Name="calendar" Width="0" Height="0" DateChanged="CalendarDatePicker_DateChanged" />
 
 
-                    <Button Name="ButtonSave" VerticalAlignment="Center" Foreground="Red" Background="LightSalmon" Content="Button" Width="80" Margin="110,8,8,8" Height="50" Click="ButtonSave_Click" Style="{StaticResource MyButtonStyle}">
+                    <Button Name="ButtonSave" VerticalAlignment="Center" Background="AliceBlue" Foreground="DarkBlue" Content="Button" Width="80" Margin="110,8,8,8" Height="50" Click="ButtonSave_Click" Style="{StaticResource MyButtonStyle}">
                     </Button>
                 </StackPanel>
 
                 <StackPanel Margin="10,4,9.667,-114" Grid.Row="1">
 
                 </StackPanel>
-                <Button x:Name="button" Content="Dosages" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="125,540,0,0" Click="button_Click"/>
-                <Button x:Name="button1" Content="Appointments" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="125,580,0,0" Click="button1_Click"/>
                 <Button x:Name="button2" Content="WelcomePage" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="125,615,0,0" Click="button2_Click"/>
 
             </Grid>

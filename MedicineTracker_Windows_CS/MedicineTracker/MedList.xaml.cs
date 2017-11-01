@@ -115,11 +115,6 @@ namespace MedicineTracker
             //ButtonRefresh.IsEnabled = true;
         }
 
-        private void BackButton_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(Medicine));
-        }
-
         private void HamburgerButton_Click(object sender, RoutedEventArgs e)
         {
             MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
@@ -138,6 +133,11 @@ namespace MedicineTracker
         private void MenuButton3_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(Appointments));
+        }
+
+        private void MenuButton4_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
         }
     }
 }

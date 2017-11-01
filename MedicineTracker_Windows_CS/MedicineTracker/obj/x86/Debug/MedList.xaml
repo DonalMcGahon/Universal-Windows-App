@@ -7,31 +7,31 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <SplitView x:Name="MySplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" 
+    <SplitView x:ConnectionId='1' x:Name="MySplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" 
                CompactPaneLength="50" OpenPaneLength="150">
         <SplitView.Pane>
             <StackPanel Background="CornflowerBlue">
-                <Button x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
-                    Width="50" Height="50" Background="Transparent" Click="HamburgerButton_Click"/>
+                <Button x:ConnectionId='2' x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
+                    Width="50" Height="50" Background="Transparent"                              />
 
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="MenuButton1" FontFamily="Segoe MDL2 Assets" Content="&#xE70F;"
-                   Width="50" Height="50" Background="Transparent" Click="MenuButton1_Click"/>
+                    <Button x:ConnectionId='6' x:Name="MenuButton1" FontFamily="Segoe MDL2 Assets" Content="&#xE70F;"
+                   Width="50" Height="50" Background="Transparent"                          />
                     <TextBlock Text="Add Meds" FontSize="16" VerticalAlignment="Center" />
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="MenuButton2" FontFamily="Segoe MDL2 Assets" Content="&#xE779;"
-                       Width="50" Height="50" Background="Transparent" Click="MenuButton2_Click"/>
+                    <Button x:ConnectionId='5' x:Name="MenuButton2" FontFamily="Segoe MDL2 Assets" Content="&#xE779;"
+                       Width="50" Height="50" Background="Transparent"                          />
                     <TextBlock Text="Medication" FontSize="16" VerticalAlignment="Center" />
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="MenuButton3" FontFamily="Segoe MDL2 Assets" Content="&#xE8CF;"
-                       Width="50" Height="50" Background="Transparent" Click="MenuButton3_Click"/>
+                    <Button x:ConnectionId='4' x:Name="MenuButton3" FontFamily="Segoe MDL2 Assets" Content="&#xE8CF;"
+                       Width="50" Height="50" Background="Transparent"                          />
                     <TextBlock Text="Appointments" FontSize="16" VerticalAlignment="Center" />
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:Name="MenuButton4" FontFamily="Segoe MDL2 Assets" Content="&#xE830;"
-                       Width="50" Height="50" Background="Transparent" Click="MenuButton4_Click" />
+                    <Button x:ConnectionId='3' x:Name="MenuButton4" FontFamily="Segoe MDL2 Assets" Content="&#xE830;"
+                       Width="50" Height="50" Background="Transparent"                           />
                     <TextBlock Text="Sign Out" FontSize="16" VerticalAlignment="Center" />
                 </StackPanel>
 
@@ -54,7 +54,7 @@
                               VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
 
 
-                    <ListView Header="Checkbox    Patient     Med       Dose         Time         Date" x:Name="ListItems" Background="White" HorizontalAlignment="Left" Width="400">
+                    <ListView x:ConnectionId='7' Header="Checkbox    Patient     Med       Dose         Time         Date" x:Name="ListItems" Background="White" HorizontalAlignment="Left" Width="400">
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <Grid Width="400">
@@ -66,9 +66,9 @@
                                         <ColumnDefinition Width="*" />
                                         <ColumnDefinition Width="*" />
                                     </Grid.ColumnDefinitions>
-                                    <CheckBox x:Name="CheckBoxComplete" 
+                                    <CheckBox x:ConnectionId='8' x:Name="CheckBoxComplete" 
                                           IsChecked="{Binding Complete, Mode=TwoWay}" 
-                                          Checked="CheckBoxComplete_Checked" 
+                                                                             
                                           MaxWidth="550"
                                           VerticalAlignment="Center"/>
                                     <!--Bind data to ListView Item, here I just bind items for Medications-->
@@ -101,3 +101,4 @@
     </SplitView>
 
 </Page>
+

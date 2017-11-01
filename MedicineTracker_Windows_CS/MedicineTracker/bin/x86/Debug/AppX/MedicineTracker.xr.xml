@@ -203,9 +203,6 @@
       <RootProperty Name="Mode" />
       <RootProperty Name="RelativeSource" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.SymbolIcon">
-      <RootProperty Name="Symbol" />
-    </RootType>
     <RootType FullName="MedicineTracker.MedList" />
     <RootType FullName="Windows.UI.Xaml.Controls.Control">
       <RootProperty Name="Template" />

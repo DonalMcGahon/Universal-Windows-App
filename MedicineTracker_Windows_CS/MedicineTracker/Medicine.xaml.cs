@@ -180,16 +180,6 @@ namespace MedicineTracker
 
         #endregion
 
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(MedList));
-        }
-
-        private void button1_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(Appointments));
-        }
-
         private void button2_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(WelcomePage));
@@ -213,6 +203,11 @@ namespace MedicineTracker
         private void MenuButton3_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(Appointments));
+        }
+
+        private void MenuButton4_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
         }
     }
 }
