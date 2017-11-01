@@ -7,87 +7,91 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <SplitView x:ConnectionId='1' x:Name="MySplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" 
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Images/medicine.jpg" 
+                        Stretch="UniformToFill" Opacity="1" />
+        </Grid.Background>
+
+        <SplitView x:ConnectionId='1' x:Name="MySplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" 
                CompactPaneLength="50" OpenPaneLength="150">
-        <SplitView.Pane>
-            <StackPanel Background="CornflowerBlue">
-                <Button x:ConnectionId='2' x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
+            <SplitView.Pane>
+                <StackPanel Background="CornflowerBlue">
+                    <Button x:ConnectionId='2' x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
                     Width="50" Height="50" Background="Transparent"                              />
 
-                <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='6' x:Name="MenuButton1" FontFamily="Segoe MDL2 Assets" Content="&#xE70F;"
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:ConnectionId='6' x:Name="MenuButton1" FontFamily="Segoe MDL2 Assets" Content="&#xE70F;"
                    Width="50" Height="50" Background="Transparent"                          />
-                    <TextBlock Text="Add Meds" FontSize="16" VerticalAlignment="Center" />
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='5' x:Name="MenuButton2" FontFamily="Segoe MDL2 Assets" Content="&#xE779;"
+                        <TextBlock Text="Add Meds" FontSize="16" VerticalAlignment="Center" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:ConnectionId='5' x:Name="MenuButton2" FontFamily="Segoe MDL2 Assets" Content="&#xE779;"
                        Width="50" Height="50" Background="Transparent"                          />
-                    <TextBlock Text="Medication" FontSize="16" VerticalAlignment="Center" />
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='4' x:Name="MenuButton3" FontFamily="Segoe MDL2 Assets" Content="&#xE8CF;"
+                        <TextBlock Text="Medication" FontSize="16" VerticalAlignment="Center" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:ConnectionId='4' x:Name="MenuButton3" FontFamily="Segoe MDL2 Assets" Content="&#xE8CF;"
                        Width="50" Height="50" Background="Transparent"                          />
-                    <TextBlock Text="Appointments" FontSize="16" VerticalAlignment="Center" />
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='3' x:Name="MenuButton4" FontFamily="Segoe MDL2 Assets" Content="&#xE830;"
+                        <TextBlock Text="Appointments" FontSize="16" VerticalAlignment="Center" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:ConnectionId='3' x:Name="MenuButton4" FontFamily="Segoe MDL2 Assets" Content="&#xE830;"
                        Width="50" Height="50" Background="Transparent"                           />
-                    <TextBlock Text="Sign Out" FontSize="16" VerticalAlignment="Center" />
+                        <TextBlock Text="Sign Out" FontSize="16" VerticalAlignment="Center" />
+                    </StackPanel>
+
                 </StackPanel>
+            </SplitView.Pane>
+            <SplitView.Content>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="79*"/>
+                        <RowDefinition Height="561*"/>
+                    </Grid.RowDefinitions>
 
-            </StackPanel>
-        </SplitView.Pane>
-        <SplitView.Content>
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="79*"/>
-                    <RowDefinition Height="561*"/>
-                </Grid.RowDefinitions>
-                <TextBlock Text="SplitView Basic" FontSize="54" Foreground="White"
-                          HorizontalAlignment="Center" VerticalAlignment="Center" Margin="-21,204.526,-22,284" Grid.Row="1"/>
-
-                <TextBlock Foreground="#0094ff" FontFamily="Segoe UI Light" FontSize="35" Margin="10,70,0,-50">Medicine Tracker List</TextBlock>
+                    <TextBlock Foreground="#0094ff" FontFamily="Segoe UI Light" FontSize="35" Margin="10,70,0,-50">Medicine Tracker List</TextBlock>
 
 
-                <ScrollViewer Grid.Row="1" Margin="10,90.526,0,0" 
+                    <ScrollViewer Grid.Row="1" Margin="10,54,0,245" 
                               ScrollViewer.VerticalScrollBarVisibility="Visible" 
                               VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
 
 
-                    <ListView x:ConnectionId='7' Header="Checkbox    Patient     Med       Dose         Time         Date" x:Name="ListItems" Background="White" HorizontalAlignment="Left" Width="400">
-                        <ListView.ItemTemplate>
-                            <DataTemplate>
-                                <Grid Width="400">
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="*" />
-                                        <ColumnDefinition Width="*" />
-                                        <ColumnDefinition Width="*" />
-                                        <ColumnDefinition Width="*" />
-                                        <ColumnDefinition Width="*" />
-                                        <ColumnDefinition Width="*" />
-                                    </Grid.ColumnDefinitions>
-                                    <CheckBox x:ConnectionId='8' x:Name="CheckBoxComplete" 
+                        <ListView x:ConnectionId='7' Header="Checkbox    Patient     Med       Dose         Time         Date" x:Name="ListItems" Background="White" HorizontalAlignment="Left" Width="400" Height="257">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid Width="400">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <CheckBox x:ConnectionId='8' x:Name="CheckBoxComplete" 
                                           IsChecked="{Binding Complete, Mode=TwoWay}" 
                                                                              
                                           MaxWidth="550"
                                           VerticalAlignment="Center"/>
-                                    <!--Bind data to ListView Item, here I just bind items for Medications-->
-                                    <TextBlock Grid.Column="1" x:Name="medDose" Text="{Binding pName}" TextWrapping="Wrap" />
-                                    <TextBlock Grid.Column="2" x:Name="medDose1" Text="{Binding Med}" TextWrapping="Wrap" />
-                                    <TextBlock Grid.Column="3" x:Name="medDose2" Text="{Binding Dose}" TextWrapping="Wrap" />
-                                    <TextBlock Grid.Column="4" x:Name="medDose3" Text="{Binding Time}" TextWrapping="Wrap" />
-                                    <TextBlock Grid.Column="5" x:Name="medDose4" Text="{Binding Date}" TextWrapping="Wrap" />
-                                </Grid>
-                            </DataTemplate>
-                        </ListView.ItemTemplate>
-                    </ListView>
+                                        <!--Bind data to ListView Item, here I just bind items for Medications-->
+                                        <TextBlock Grid.Column="1" x:Name="medDose" Text="{Binding pName}" TextWrapping="Wrap" />
+                                        <TextBlock Grid.Column="2" x:Name="medDose1" Text="{Binding Med}" TextWrapping="Wrap" />
+                                        <TextBlock Grid.Column="3" x:Name="medDose2" Text="{Binding Dose}" TextWrapping="Wrap" />
+                                        <TextBlock Grid.Column="4" x:Name="medDose3" Text="{Binding Time}" TextWrapping="Wrap" />
+                                        <TextBlock Grid.Column="5" x:Name="medDose4" Text="{Binding Date}" TextWrapping="Wrap" />
+                                    </Grid>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
 
-                </ScrollViewer>
-            </Grid>
-        </SplitView.Content>
+                    </ScrollViewer>
+                </Grid>
+            </SplitView.Content>
 
 
-        <!--<RelativePanel Grid.Row="0" Grid.ColumnSpan="2" Margin="0,0,10,0">
+            <!--<RelativePanel Grid.Row="0" Grid.ColumnSpan="2" Margin="0,0,10,0">
             <local:QuickStartTask x:Name="quickStartTaskQuery" Number="2" Title="Query and Update Data" Description="Click refresh below to load the unfinished TodoItems from your hosted service"/>
             <Button x:Name="ButtonRefresh" Click="ButtonRefresh_Click" Margin="72,10,0,0" Height="44"
                             RelativePanel.Below="quickStartTaskQuery"  HorizontalAlignment="Center">
@@ -98,7 +102,8 @@
             </Button>
         </RelativePanel>-->
 
-    </SplitView>
+        </SplitView>
+    </Grid>
 
 </Page>
 

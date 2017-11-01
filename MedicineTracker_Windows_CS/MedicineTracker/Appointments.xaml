@@ -7,86 +7,91 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <SplitView x:Name="MySplitView" DisplayMode="CompactOverlay"  IsPaneOpen="False" 
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Images/sun1.jpg" 
+                        Stretch="UniformToFill" Opacity="1" />
+        </Grid.Background>
+
+        <SplitView x:Name="MySplitView" DisplayMode="CompactOverlay"  IsPaneOpen="False" 
                CompactPaneLength="50" OpenPaneLength="150">
-        <SplitView.Pane>
-            <StackPanel Background="CornflowerBlue">
-                <Button x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
+            <SplitView.Pane>
+                <StackPanel Background="CornflowerBlue">
+                    <Button x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
                     Width="50" Height="50" Background="Transparent" Click="HamburgerButton_Click"/>
 
-                <StackPanel Orientation="Horizontal">
-                    <Button x:Name="MenuButton1" FontFamily="Segoe MDL2 Assets" Content="&#xE70F;"
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="MenuButton1" FontFamily="Segoe MDL2 Assets" Content="&#xE70F;"
                    Width="50" Height="50" Background="Transparent" Click="MenuButton1_Click"/>
-                    <TextBlock Text="Add Meds" FontSize="16" VerticalAlignment="Center" />
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <Button x:Name="MenuButton2" FontFamily="Segoe MDL2 Assets" Content="&#xE779;"
+                        <TextBlock Text="Add Meds" FontSize="16" VerticalAlignment="Center" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="MenuButton2" FontFamily="Segoe MDL2 Assets" Content="&#xE779;"
                        Width="50" Height="50" Background="Transparent" Click="MenuButton2_Click"/>
-                    <TextBlock Text="Medication" FontSize="16" VerticalAlignment="Center" />
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <Button x:Name="MenuButton3" FontFamily="Segoe MDL2 Assets" Content="&#xE8CF;"
+                        <TextBlock Text="Medication" FontSize="16" VerticalAlignment="Center" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="MenuButton3" FontFamily="Segoe MDL2 Assets" Content="&#xE8CF;"
                        Width="50" Height="50" Background="Transparent" Click="MenuButton3_Click"/>
-                    <TextBlock Text="Appointments" FontSize="16" VerticalAlignment="Center" />
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <Button x:Name="MenuButton4" FontFamily="Segoe MDL2 Assets" Content="&#xE830;"
+                        <TextBlock Text="Appointments" FontSize="16" VerticalAlignment="Center" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="MenuButton4" FontFamily="Segoe MDL2 Assets" Content="&#xE830;"
                        Width="50" Height="50" Background="Transparent" Click="MenuButton4_Click"/>
-                    <TextBlock Text="Sign Out" FontSize="16" VerticalAlignment="Center" />
-                </StackPanel>
-                
-            </StackPanel>
-        </SplitView.Pane>
-        <SplitView.Content>
-            <Grid>
-                <TextBlock Text="SplitView Basic" FontSize="54" Foreground="White"
-                          HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                <StackPanel VerticalAlignment="Top" Margin="0,40,0,0" HorizontalAlignment="Center" Width="350">
-
-                    <TextBlock x:Uid="Heading" Text="Add an Appointment to Your Calendar" Width="auto" Height="40" FontSize="20"></TextBlock>
-                    <TextBlock x:Uid="Subject" Text="Appointment Name:"/>
-                    <TextBox Name="Subject" x:Uid="SubjectPlace" PlaceholderText="Appointment" Margin="0,5,0,0" Width="auto"></TextBox>
-                    <TextBlock x:Uid="Location" Text="Location:"/>
-                    <TextBox Name="Location" x:Uid="LocationPlace" PlaceholderText="Location" Margin="0,5,0,0" Width="auto"></TextBox>
-                    <TextBlock x:Uid="Deatils" Text="Details:"/>
-                    <TextBox Name="Details" x:Uid="DeatilsPlace" PlaceholderText="Details" Margin="0,5,0,0" Width="auto"></TextBox>
-
-                    <TextBlock x:Uid="Date" Text="Date:"/>
-                    <DatePicker Name="StartDate" Margin="0,5,0,0"></DatePicker>
-                    <TextBlock x:Uid="Time" Text="Time:"/>
-                    <TimePicker Name="StartTime" Margin="0,5,0,0"></TimePicker>
-
-                    <TextBlock x:Uid="Duration" Text="Duration"></TextBlock>
-                    <ComboBox x:Name="Duration" Margin="0,5,0,0" SelectedIndex="0">
-                        <ComboBoxItem Tag="15" Content="15 Minutes"/>
-                        <ComboBoxItem Tag="30" Content="30 Minutes"/>
-                        <ComboBoxItem Tag="45" Content="45 Minutes"/>
-                        <ComboBoxItem Tag="60" Content="1 hour"/>
-                        <ComboBoxItem Tag="120" Content="2 hour"/>
-                        <ComboBoxItem Tag="180" Content="3 hour"/>
-                        <ComboBoxItem Tag="240" Content="4 hour"/>
-                        <ComboBoxItem Tag="300" Content="5 hour"/>
-                        <ComboBoxItem Tag="600" Content="10 hour"/>
-                        <ComboBoxItem Tag="900" Content="15 hour"/>
-                        <ComboBoxItem Tag="1440" Content="All Day"/>
-                    </ComboBox>
-                </StackPanel>
-
-                <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,340,0,0" Width="300">
-
-                    <Button x:Name="Add" x:Uid="AddToCal" Content="Add" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="38" Background="AliceBlue" Foreground="DarkBlue" Style="{StaticResource MyButtonStyle}" Click="Add_Click"/>
-                    <Button x:Name="Calendar" x:Uid="OpenCalendar" Content="Calendar" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="38" Width="auto" Margin="0,10,0,0" Background="AliceBlue" Foreground="DarkBlue" Style="{StaticResource MyButtonStyle}" Click="Calendar_Click"/>
+                        <TextBlock Text="Sign Out" FontSize="16" VerticalAlignment="Center" />
+                    </StackPanel>
 
                 </StackPanel>
+            </SplitView.Pane>
+            <SplitView.Content>
+                <Grid>
+                    <StackPanel VerticalAlignment="Top" Margin="0,40,0,0" HorizontalAlignment="Center" Width="350">
 
-            </Grid>
-        </SplitView.Content>
-        
-    
+                        <TextBlock Foreground="Black" FontFamily="Segoe UI Light" FontSize="20" Margin="0,0,0,5">Add an appointment to your calendar</TextBlock>
+                        <TextBlock x:Uid="Subject" Text="Appointment Name:"/>
+                        <TextBox Name="Subject" x:Uid="SubjectPlace" PlaceholderText="Appointment" Margin="0,5,0,0" Width="auto"></TextBox>
+                        <TextBlock x:Uid="Location" Text="Location:"/>
+                        <TextBox Name="Location" x:Uid="LocationPlace" PlaceholderText="Location" Margin="0,5,0,0" Width="auto"></TextBox>
+                        <TextBlock x:Uid="Deatils" Text="Details:"/>
+                        <TextBox Name="Details" x:Uid="DeatilsPlace" PlaceholderText="Details" Margin="0,5,0,0" Width="auto"></TextBox>
 
-        
+                        <TextBlock x:Uid="Date" Text="Date:"/>
+                        <DatePicker Name="StartDate" Margin="0,5,0,0"></DatePicker>
+                        <TextBlock x:Uid="Time" Text="Time:"/>
+                        <TimePicker Name="StartTime" Margin="0,5,0,0"></TimePicker>
 
-    </SplitView>
+                        <TextBlock x:Uid="Duration" Text="Duration"></TextBlock>
+                        <ComboBox x:Name="Duration" Margin="0,5,0,0" SelectedIndex="0">
+                            <ComboBoxItem Tag="15" Content="15 Minutes"/>
+                            <ComboBoxItem Tag="30" Content="30 Minutes"/>
+                            <ComboBoxItem Tag="45" Content="45 Minutes"/>
+                            <ComboBoxItem Tag="60" Content="1 hour"/>
+                            <ComboBoxItem Tag="120" Content="2 hour"/>
+                            <ComboBoxItem Tag="180" Content="3 hour"/>
+                            <ComboBoxItem Tag="240" Content="4 hour"/>
+                            <ComboBoxItem Tag="300" Content="5 hour"/>
+                            <ComboBoxItem Tag="600" Content="10 hour"/>
+                            <ComboBoxItem Tag="900" Content="15 hour"/>
+                            <ComboBoxItem Tag="1440" Content="All Day"/>
+                        </ComboBox>
+                    </StackPanel>
+
+                    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,340,0,0" Width="300">
+
+                        <Button x:Name="Add" x:Uid="AddToCal" Content="Add" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="38" Background="AliceBlue" Foreground="DarkBlue" Style="{StaticResource MyButtonStyle}" Click="Add_Click"/>
+                        <Button x:Name="Calendar" x:Uid="OpenCalendar" Content="Calendar" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="38" Width="auto" Margin="0,10,0,0" Background="AliceBlue" Foreground="DarkBlue" Style="{StaticResource MyButtonStyle}" Click="Calendar_Click"/>
+
+                    </StackPanel>
+
+                </Grid>
+            </SplitView.Content>
+
+
+
+
+
+        </SplitView>
+    </Grid>
 
 
 </Page>

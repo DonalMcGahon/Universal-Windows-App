@@ -9,10 +9,10 @@
 
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="Images/backgroundoffice.jpg" 
+            <ImageBrush ImageSource="Images/laptop.jpg" 
                         Stretch="UniformToFill" Opacity="1" />
         </Grid.Background>
-        <Grid VerticalAlignment="Center" Background="Transparent"
+        <Grid VerticalAlignment="Center" Background="Black"
               Margin="8"
               Padding="16">
             <Grid.RowDefinitions>

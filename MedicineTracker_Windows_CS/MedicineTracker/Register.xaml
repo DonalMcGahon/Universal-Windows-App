@@ -10,15 +10,15 @@
     <Grid>
         <!-- Background Image -->
         <Grid.Background>
-            <ImageBrush ImageSource="Images/backgroundoffice.jpg" 
+            <ImageBrush ImageSource="Images/laptop.jpg" 
                         Stretch="UniformToFill" Opacity="1" />
         </Grid.Background>
 
         <!-- Grid for User to enter details -->
         <Grid VerticalAlignment="Top"
               Margin="8 80 8 8"
-              Padding="16"
-              Background="Transparent">
+              Padding="1"
+              Background="Black">
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="auto"/>

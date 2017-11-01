@@ -21,6 +21,29 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Content" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="ColumnDefinitions" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="RowDefinitions" />
+      <RootProperty Name="Width" />
+      <RootMethod Name="GetColumn" />
+      <RootMethod Name="SetColumn" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
+      <RootMethod Name="GetColumnSpan" />
+      <RootMethod Name="SetColumnSpan" />
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
+      <RootProperty Name="ImageSource" />
+      <RootProperty Name="Stretch" />
+      <RootProperty Name="Opacity" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.SplitView">
       <RootProperty Name="DisplayMode" />
       <RootProperty Name="IsPaneOpen" />
@@ -57,36 +80,18 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Foreground" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Name" />
+      <RootProperty Name="FontFamily" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="Inlines" />
+      <RootProperty Name="Name" />
+      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="FontWeight" />
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="Visibility" />
       <RootProperty Name="MaxWidth" />
-      <RootProperty Name="FontFamily" />
-      <RootProperty Name="Inlines" />
       <RootProperty Name="SelectionHighlightColor" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
-      <RootProperty Name="Children" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="ColumnDefinitions" />
-      <RootProperty Name="Background" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Padding" />
-      <RootProperty Name="RowDefinitions" />
+      <RootProperty Name="Height" />
       <RootProperty Name="Width" />
-      <RootMethod Name="GetColumn" />
-      <RootMethod Name="SetColumn" />
-      <RootMethod Name="GetRow" />
-      <RootMethod Name="SetRow" />
-      <RootMethod Name="GetColumnSpan" />
-      <RootMethod Name="SetColumnSpan" />
-      <RootMethod Name="GetRowSpan" />
-      <RootMethod Name="SetRowSpan" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
@@ -157,11 +162,6 @@
       <RootProperty Name="Mode" />
     </RootType>
     <RootType FullName="MedicineTracker.QuickStartTask" />
-    <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
-      <RootProperty Name="ImageSource" />
-      <RootProperty Name="Stretch" />
-      <RootProperty Name="Opacity" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
     </RootType>
@@ -188,6 +188,7 @@
       <RootProperty Name="Background" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
       <RootProperty Name="ItemTemplate" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
