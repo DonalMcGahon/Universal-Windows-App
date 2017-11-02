@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="de" original="MEDICINETRACKER/STRINGS/EN-US/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1795.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="MEDICINETRACKER/STRINGS/EN-US/RESOURCES.RESW" datatype="resx">
+        <trans-unit id="AddAppointment.Text" translate="yes" xml:space="preserve">
+          <source>Add an appointment to your calendar</source>
+          <target state="translated">
+Fügen Sie Ihrem Kalender einen Termin hinzu</target>
+        </trans-unit>
+        <trans-unit id="AddButton.Content" translate="yes" xml:space="preserve">
+          <source>Add</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Hinzufügen</target>
+        </trans-unit>
+        <trans-unit id="AddMeds.Text" translate="yes" xml:space="preserve">
+          <source>Add Medication</source>
+          <target state="translated">Medikamente hinzufügen</target>
+        </trans-unit>
+        <trans-unit id="AddToCal.Content" translate="yes" xml:space="preserve">
+          <source>Add</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Hinzufügen</target>
+        </trans-unit>
+        <trans-unit id="AppName.Text" translate="yes" xml:space="preserve">
+          <source>Appointment Name</source>
+          <target state="translated">Termin Name</target>
+        </trans-unit>
+        <trans-unit id="Appoint.Text" translate="yes" xml:space="preserve">
+          <source>Appointments</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Termine</target>
+        </trans-unit>
+        <trans-unit id="AppointmentPlace.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Appointment</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Termin</target>
+        </trans-unit>
+        <trans-unit id="BacktoLogin.Content" translate="yes" xml:space="preserve">
+          <source>Back to Login</source>
+          <target state="translated">Zurück zur Anmeldung</target>
+        </trans-unit>
+        <trans-unit id="Date.Text" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <target state="translated">Datum</target>
+        </trans-unit>
+        <trans-unit id="Date1.Text" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <target state="translated">Datum</target>
+        </trans-unit>
+        <trans-unit id="DatePlace.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Date to be Taken</source>
+          <target state="translated">Anzuwendendes Datum</target>
+        </trans-unit>
+        <trans-unit id="Details.Text" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Details</target>
+        </trans-unit>
+        <trans-unit id="DetailsPlace.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Details</target>
+        </trans-unit>
+        <trans-unit id="Dosage.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Dosage</source>
+          <target state="translated">Dosierung</target>
+        </trans-unit>
+        <trans-unit id="Duration.Text" translate="yes" xml:space="preserve">
+          <source>Duration</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Termine</target>
+        </trans-unit>
+        <trans-unit id="Email.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Email</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">E-Mail</target>
+        </trans-unit>
+        <trans-unit id="Location.Text" translate="yes" xml:space="preserve">
+          <source>Location</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Speicherort</target>
+        </trans-unit>
+        <trans-unit id="LocationPlace.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Location</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Speicherort</target>
+        </trans-unit>
+        <trans-unit id="Login.Content" translate="yes" xml:space="preserve">
+          <source>Login</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Anmelden</target>
+        </trans-unit>
+        <trans-unit id="Medication.Text" translate="yes" xml:space="preserve">
+          <source>Medication</source>
+          <target state="translated">Medikation</target>
+        </trans-unit>
+        <trans-unit id="Medicine.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Medicine</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Medizin</target>
+        </trans-unit>
+        <trans-unit id="MedTracker.Text" translate="yes" xml:space="preserve">
+          <source>Medicine Tracker</source>
+          <target state="translated">Medizin Tracker</target>
+        </trans-unit>
+        <trans-unit id="MedTrackerList.Text" translate="yes" xml:space="preserve">
+          <source>Medicine Tracker List</source>
+          <target state="translated">Medizin Tracker Liste</target>
+        </trans-unit>
+        <trans-unit id="Name.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Name</target>
+        </trans-unit>
+        <trans-unit id="OpenCalendar.Content" translate="yes" xml:space="preserve">
+          <source>Calendar</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Kalender</target>
+        </trans-unit>
+        <trans-unit id="password.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <target state="translated">Passwort</target>
+        </trans-unit>
+        <trans-unit id="PatDose.Text" translate="yes" xml:space="preserve">
+          <source>Patient Dosage</source>
+          <target state="translated">Patientendosierung</target>
+        </trans-unit>
+        <trans-unit id="PatientName.Text" translate="yes" xml:space="preserve">
+          <source>Patient Name:</source>
+          <target state="translated">Patientenname</target>
+        </trans-unit>
+        <trans-unit id="PatMedicine.Text" translate="yes" xml:space="preserve">
+          <source>Patient Medicine</source>
+          <target state="translated">Patientenmedizin</target>
+        </trans-unit>
+        <trans-unit id="Reg.Content" translate="yes" xml:space="preserve">
+          <source>Register</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Registrieren</target>
+        </trans-unit>
+        <trans-unit id="Register.Content" translate="yes" xml:space="preserve">
+          <source>Register</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Registrieren</target>
+        </trans-unit>
+        <trans-unit id="RegPassword.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <target state="translated">Passwort</target>
+        </trans-unit>
+        <trans-unit id="RegUser.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Username</source>
+          <target state="translated">Benutzername</target>
+        </trans-unit>
+        <trans-unit id="Signout.Text" translate="yes" xml:space="preserve">
+          <source>Sign out</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Abmelden</target>
+        </trans-unit>
+        <trans-unit id="Time.Text" translate="yes" xml:space="preserve">
+          <source>Time</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Zeit</target>
+        </trans-unit>
+        <trans-unit id="TimetobeTaken.Text" translate="yes" xml:space="preserve">
+          <source>Time to be Taken</source>
+          <target state="translated">Zeit genommen zu werden</target>
+        </trans-unit>
+        <trans-unit id="user.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Username</source>
+          <target state="translated">Benutzername</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -16,7 +16,7 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>F893C26201A12909F132EF4722D7ADFE4992D4948C610688193FB18F7886848D</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>DB7382F84FFF9F60AD3379B5310F129AA65CD57A10B9FC8427D283359E3F5809</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>b7657ddb-b2f7-4885-9e64-d4f2feaf51e1_1.0.0.0_x86__ka1dgav0par9g</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>b7657ddb-b2f7-4885-9e64-d4f2feaf51e1_ka1dgav0par9g!App</RegisteredUserModeAppID>
     <RegisteredPackageID>b7657ddb-b2f7-4885-9e64-d4f2feaf51e1</RegisteredPackageID>
@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-11-02T16:55:34.185</Modified>
+      <Modified>2017-11-02T19:41:45.753</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Debug\MedicineTracker.exe">
       <PackagePath>entrypoint\MedicineTracker.exe</PackagePath>
-      <Modified>2017-11-02T16:53:58.596</Modified>
+      <Modified>2017-11-02T19:35:52.935</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dmcga\.nuget\packages\Microsoft.Azure.Mobile.Client\3.1.0\lib\netcore45\Microsoft.WindowsAzure.Mobile.Ext.dll">
       <PackagePath>Microsoft.WindowsAzure.Mobile.Ext.dll</PackagePath>
@@ -609,11 +609,11 @@
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-11-02T16:55:31.980</Modified>
+      <Modified>2017-11-02T19:41:43.880</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Debug\Core\MedicineTracker.exe">
       <PackagePath>MedicineTracker.exe</PackagePath>
-      <Modified>2017-11-02T16:55:34.171</Modified>
+      <Modified>2017-11-02T19:41:45.737</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

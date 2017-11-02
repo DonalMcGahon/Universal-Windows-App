@@ -35,4 +35,18 @@
     <CacheFileType>LanguageResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\MedicineTracker.de.xlf</FileName>
+    <Checksum>172215928113696725515702362342301359464</Checksum>
+    <ModifiedTime>2017-11-02T19:40:54.9194632+00:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\de\Resources.resw</FileName>
+    <Checksum>4914621939161283112271289011942151222128</Checksum>
+    <ModifiedTime>2017-11-02T19:41:03.7081024+00:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
 </ArrayOfCacheFile>
