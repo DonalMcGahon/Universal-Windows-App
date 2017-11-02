@@ -23,22 +23,22 @@
                     <StackPanel Orientation="Horizontal">
                         <Button x:Name="MenuButton1" FontFamily="Segoe MDL2 Assets" Content="&#xE70F;"
                    Width="50" Height="50" Background="Transparent" Click="MenuButton1_Click"/>
-                        <TextBlock Text="Add Meds" FontSize="16" VerticalAlignment="Center" />
+                        <TextBlock Text="Add Meds" x:Uid="AddMeds" FontSize="16" VerticalAlignment="Center" />
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
                         <Button x:Name="MenuButton2" FontFamily="Segoe MDL2 Assets" Content="&#xE779;"
                        Width="50" Height="50" Background="Transparent" Click="MenuButton2_Click"/>
-                        <TextBlock Text="Medication" FontSize="16" VerticalAlignment="Center" />
+                        <TextBlock Text="Medication" x:Uid="Medication" FontSize="16" VerticalAlignment="Center" />
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
                         <Button x:Name="MenuButton3" FontFamily="Segoe MDL2 Assets" Content="&#xE8CF;"
                        Width="50" Height="50" Background="Transparent" Click="MenuButton3_Click"/>
-                        <TextBlock Text="Appointments" FontSize="16" VerticalAlignment="Center" />
+                        <TextBlock Text="Appointments" x:Uid="Appoint" FontSize="16" VerticalAlignment="Center" />
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
                         <Button x:Name="MenuButton4" FontFamily="Segoe MDL2 Assets" Content="&#xE830;"
                        Width="50" Height="50" Background="Transparent" Click="MenuButton4_Click"/>
-                        <TextBlock Text="Sign Out" FontSize="16" VerticalAlignment="Center" />
+                        <TextBlock Text="Sign Out" x:Uid="Signout" FontSize="16" VerticalAlignment="Center" />
                     </StackPanel>
 
                 </StackPanel>
@@ -50,23 +50,23 @@
                         <!--TitleGrid contains the name of the application and page title-->
                         <Grid x:Name="TitleGrid" Grid.Row="0" Grid.ColumnSpan="2" Margin="0,0,0,0">
                             <StackPanel>
-                                <TextBlock Foreground="#0094ff" FontFamily="Segoe UI Light" FontSize="35" Margin="0,0,0,5">Medicine Tracker</TextBlock>
+                                <TextBlock Foreground="#0094ff" x:Uid="MedTracker" FontFamily="Segoe UI Light" FontSize="35" Text="Medicine Tracker" Margin="0,0,0,5"></TextBlock>
                             </StackPanel>
                         </Grid>
-                        <TextBlock Margin="5" Text="Patient Name:" Foreground="White" FontSize="20"></TextBlock>
-                        <TextBox Margin="5,5,5,5" Name="TextInput" PlaceholderText="Name" VerticalAlignment="Center" KeyDown="TextInput_KeyDown"></TextBox>
-                        <TextBlock Margin="5" Text="Patient Medicine:" Foreground="White" FontSize="20"></TextBlock>
-                        <TextBox Name="TextInput2" Margin="5,5,5,5" KeyDown="TextInput_KeyDown" PlaceholderText="Medicine"></TextBox>
-                        <TextBlock Margin="5" Text="Patient Dosage:" Foreground="White" FontSize="20"></TextBlock>
-                        <TextBox Name="TextInput3" Margin="5,5,5,5" KeyDown="TextInput_KeyDown" PlaceholderText="Doseage"></TextBox>
-                        <TextBlock Margin="5" Text="Time to be Taken:" Foreground="White" FontSize="20"></TextBlock>
+                        <TextBlock Margin="5" x:Uid="PatientName" Text="Patient Name:" Foreground="White" FontSize="20"></TextBlock>
+                        <TextBox Margin="5,5,5,5" x:Uid="Name" Name="TextInput" PlaceholderText="Name" VerticalAlignment="Center" KeyDown="TextInput_KeyDown"></TextBox>
+                        <TextBlock Margin="5" x:Uid="PatMedicine" Text="Patient Medicine:" Foreground="White" FontSize="20"></TextBlock>
+                        <TextBox Name="TextInput2" x:Uid="Medicine" Margin="5,5,5,5" KeyDown="TextInput_KeyDown" PlaceholderText="Medicine"></TextBox>
+                        <TextBlock Margin="5" x:Uid="PatDose" Text="Patient Dosage:" Foreground="White" FontSize="20"></TextBlock>
+                        <TextBox Name="TextInput3" x:Uid="Dosage" Margin="5,5,5,5" KeyDown="TextInput_KeyDown" PlaceholderText="Dosage"></TextBox>
+                        <TextBlock Margin="5" x:Uid="TimetobeTaken" Text="Time to be Taken:" Foreground="White" FontSize="20"></TextBlock>
                         <TextBox Name="TextInput4" Margin="5,5,5,5" KeyDown="TextInput_KeyDown" PlaceholderText="00:00"></TextBox>
-                        <TextBlock Margin="5" Text="Date:" Foreground="White" FontSize="20"></TextBlock>
-                        <TextBox x:Name="textBox_Copy" x:Uid="DuePlace" PlaceholderText="Due Date" GotFocus="textBox_GotFocus" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="5,5,0,5" Width="251"/>
+                        <TextBlock Margin="5" x:Uid="Date" Text="Date:" Foreground="White" FontSize="20"></TextBlock>
+                        <TextBox x:Name="textBox_Copy" x:Uid="DatePlace" PlaceholderText="Date to be Taken" GotFocus="textBox_GotFocus" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="5,5,0,5" Width="251"/>
                         <CalendarDatePicker x:Name="calendar" Width="0" Height="0" DateChanged="CalendarDatePicker_DateChanged" />
 
 
-                        <Button Name="ButtonSave" VerticalAlignment="Center" Background="AliceBlue" Foreground="DarkBlue" Content="Add" Width="80" Margin="110,8,8,8" Height="50" Click="ButtonSave_Click" Style="{StaticResource MyButtonStyle}">
+                        <Button Name="ButtonSave" x:Uid="AddButton" VerticalAlignment="Center" Background="AliceBlue" Foreground="DarkBlue" Content="Add" Width="80" Margin="110,8,8,8" Height="50" Click="ButtonSave_Click" Style="{StaticResource MyButtonStyle}">
                         </Button>
                     </StackPanel>
 

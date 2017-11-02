@@ -23,22 +23,22 @@
                     <StackPanel Orientation="Horizontal">
                         <Button x:ConnectionId='6' x:Name="MenuButton1" FontFamily="Segoe MDL2 Assets" Content="&#xE70F;"
                    Width="50" Height="50" Background="Transparent"                          />
-                        <TextBlock Text="Add Meds" FontSize="16" VerticalAlignment="Center" />
+                        <TextBlock Text="Add Meds" x:Uid="AddMeds" FontSize="16" VerticalAlignment="Center" />
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
                         <Button x:ConnectionId='5' x:Name="MenuButton2" FontFamily="Segoe MDL2 Assets" Content="&#xE779;"
                        Width="50" Height="50" Background="Transparent"                          />
-                        <TextBlock Text="Medication" FontSize="16" VerticalAlignment="Center" />
+                        <TextBlock Text="Medication" x:Uid="Medication" FontSize="16" VerticalAlignment="Center" />
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
                         <Button x:ConnectionId='4' x:Name="MenuButton3" FontFamily="Segoe MDL2 Assets" Content="&#xE8CF;"
                        Width="50" Height="50" Background="Transparent"                          />
-                        <TextBlock Text="Appointments" FontSize="16" VerticalAlignment="Center" />
+                        <TextBlock Text="Appointments" x:Uid="Appoint" FontSize="16" VerticalAlignment="Center" />
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
                         <Button x:ConnectionId='3' x:Name="MenuButton4" FontFamily="Segoe MDL2 Assets" Content="&#xE830;"
                        Width="50" Height="50" Background="Transparent"                          />
-                        <TextBlock Text="Sign Out" FontSize="16" VerticalAlignment="Center" />
+                        <TextBlock Text="Sign Out" x:Uid="Signout" FontSize="16" VerticalAlignment="Center" />
                     </StackPanel>
 
                 </StackPanel>
@@ -47,15 +47,15 @@
                 <Grid>
                     <StackPanel VerticalAlignment="Top" Margin="0,40,0,0" HorizontalAlignment="Center" Width="350">
 
-                        <TextBlock Foreground="Black" FontFamily="Segoe UI Light" FontSize="20" Margin="0,0,0,5">Add an appointment to your calendar</TextBlock>
-                        <TextBlock x:Uid="Subject" Text="Appointment Name:"/>
-                        <TextBox x:ConnectionId='9' Name="Subject" x:Uid="SubjectPlace" PlaceholderText="Appointment" Margin="0,5,0,0" Width="auto"></TextBox>
+                        <TextBlock Foreground="Black" x:Uid="AddAppointment" FontFamily="Segoe UI Light" FontSize="20" Text="Add an appointment to your calendar" Margin="0,0,0,5"></TextBlock>
+                        <TextBlock x:Uid="AppName" Text="Appointment Name:"/>
+                        <TextBox x:ConnectionId='9' Name="Subject" x:Uid="AppointmentPlace" PlaceholderText="Appointment" Margin="0,5,0,0" Width="auto"></TextBox>
                         <TextBlock x:Uid="Location" Text="Location:"/>
                         <TextBox x:ConnectionId='10' Name="Location" x:Uid="LocationPlace" PlaceholderText="Location" Margin="0,5,0,0" Width="auto"></TextBox>
                         <TextBlock x:Uid="Deatils" Text="Details:"/>
                         <TextBox x:ConnectionId='11' Name="Details" x:Uid="DeatilsPlace" PlaceholderText="Details" Margin="0,5,0,0" Width="auto"></TextBox>
 
-                        <TextBlock x:Uid="Date" Text="Date:"/>
+                        <TextBlock x:Uid="Date1" Text="Date:"/>
                         <DatePicker x:ConnectionId='12' Name="StartDate" Margin="0,5,0,0"></DatePicker>
                         <TextBlock x:Uid="Time" Text="Time:"/>
                         <TimePicker x:ConnectionId='13' Name="StartTime" Margin="0,5,0,0"></TimePicker>

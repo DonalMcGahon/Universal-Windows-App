@@ -20,6 +20,7 @@
   </Dependencies>
   <Resources>
     <Resource Language="EN-US" />
+    <Resource Language="FR" />
   </Resources>
   <Applications>
     <Application Id="App" Executable="MedicineTracker.exe" EntryPoint="MedicineTracker.App">

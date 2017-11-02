@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<ArrayOfCacheFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CacheFile>
+    <FileName>Strings\en-US\Resources.resw</FileName>
+    <Checksum>1941812481012304910624813515319917313312061204</Checksum>
+    <ModifiedTime>2017-11-02T14:09:29.293622</ModifiedTime>
+    <CacheFileType>NeutralResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\MedicineTracker.fr.xlf</FileName>
+    <Checksum>199511861811874617721231442031192719615123</Checksum>
+    <ModifiedTime>2017-11-02T14:09:56.6760894+00:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\fr\Resources.resw</FileName>
+    <Checksum>16102110179912771821564729201204241161215</Checksum>
+    <ModifiedTime>2017-11-02T14:10:00.6321407+00:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+</ArrayOfCacheFile>

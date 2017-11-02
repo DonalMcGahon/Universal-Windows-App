@@ -82,7 +82,6 @@
       <RootProperty Name="Foreground" />
       <RootProperty Name="FontFamily" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="Inlines" />
       <RootProperty Name="Name" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="FontWeight" />

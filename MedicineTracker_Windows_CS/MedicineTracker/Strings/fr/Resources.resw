@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Login.Content" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Register.Content" xml:space="preserve">
+    <value>Inscrire</value>
+  </data>
+  <data name="password.PlaceholderText" xml:space="preserve">
+    <value>Mot de p.</value>
+  </data>
+  <data name="user.PlaceholderText" xml:space="preserve">
+    <value>Nom d'utilisateur</value>
+  </data>
+  <data name="Email.PlaceholderText" xml:space="preserve">
+    <value>Courrier électronique</value>
+  </data>
+  <data name="Reg.Content" xml:space="preserve">
+    <value>Inscrire</value>
+  </data>
+  <data name="RegPassword.PlaceholderText" xml:space="preserve">
+    <value>Mot de p.</value>
+  </data>
+  <data name="RegUser.PlaceholderText" xml:space="preserve">
+    <value>Nom d'utilisateur</value>
+  </data>
+  <data name="MedTracker.Text" xml:space="preserve">
+    <value>Traqueur de médecine</value>
+  </data>
+  <data name="PatientName.Text" xml:space="preserve">
+    <value>Nom du patient:</value>
+  </data>
+  <data name="AddButton.Content" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="Date.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="DatePlace.PlaceholderText" xml:space="preserve">
+    <value>Date à prendre</value>
+  </data>
+  <data name="Medicine.PlaceholderText" xml:space="preserve">
+    <value>Caducée</value>
+  </data>
+  <data name="Name.PlaceholderText" xml:space="preserve">
+    <value>Nom complet</value>
+  </data>
+  <data name="PatDose.Text" xml:space="preserve">
+    <value>Dosage du patient</value>
+  </data>
+  <data name="PatMedicine.Text" xml:space="preserve">
+    <value>
+Médecine patiente</value>
+  </data>
+  <data name="TimetobeTaken.Text" xml:space="preserve">
+    <value>Temps à prendre</value>
+  </data>
+  <data name="MedTrackerList.Text" xml:space="preserve">
+    <value>Liste des médicaments</value>
+  </data>
+  <data name="AddAppointment.Text" xml:space="preserve">
+    <value>Ajouter un rendez-vous à votre calendrier</value>
+  </data>
+  <data name="AppName.Text" xml:space="preserve">
+    <value>Nom du rendez-vous</value>
+  </data>
+  <data name="AppointmentPlace.PlaceholderText" xml:space="preserve">
+    <value>Rendez-vous</value>
+  </data>
+  <data name="Details.Text" xml:space="preserve">
+    <value>Détails</value>
+  </data>
+  <data name="DetailsPlace.PlaceholderText" xml:space="preserve">
+    <value>Détails</value>
+  </data>
+  <data name="Location.Text" xml:space="preserve">
+    <value>Localisation</value>
+  </data>
+  <data name="LocationPlace.PlaceholderText" xml:space="preserve">
+    <value>Localisation</value>
+  </data>
+  <data name="AddToCal.Content" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="Date1.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Duration.Text" xml:space="preserve">
+    <value>Durée</value>
+  </data>
+  <data name="OpenCalendar.Content" xml:space="preserve">
+    <value>Calendrier</value>
+  </data>
+  <data name="Time.Text" xml:space="preserve">
+    <value>Heure</value>
+  </data>
+  <data name="AddMeds.Text" xml:space="preserve">
+    <value>Ajouter un médicament</value>
+  </data>
+  <data name="Appoint.Text" xml:space="preserve">
+    <value>Rendez-vous</value>
+  </data>
+  <data name="Medication.Text" xml:space="preserve">
+    <value>Médicament</value>
+  </data>
+  <data name="Signout.Text" xml:space="preserve">
+    <value>Déconnexion</value>
+  </data>
+</root>
