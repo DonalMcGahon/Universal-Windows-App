@@ -16,7 +16,11 @@
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <PackageCertificateKeyFile>TryMobileApp_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>MedicineTracker_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
+    <AppxBundle>Always</AppxBundle>
+    <PackageCertificateThumbprint>C0437188A3DC8BE277D2FE874795CB0604F42122</PackageCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
@@ -95,6 +99,7 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <None Include="MedicineTracker_TemporaryKey.pfx" />
     <None Include="project.json" />
     <PRIResource Include="Strings\de\Resources.resw" />
     <PRIResource Include="Strings\es\Resources.resw" />
@@ -127,9 +132,6 @@
     <Compile Include="Register.xaml.cs">
       <DependentUpon>Register.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WelcomePage.xaml.cs">
-      <DependentUpon>WelcomePage.xaml</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -137,9 +139,34 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\medScale1240x600.scale-200.jpg" />
+    <Content Include="Assets\Scale100.png" />
+    <Content Include="Assets\Scale1240.scale-100.png" />
+    <Content Include="Assets\Scale1240.scale-200.png" />
+    <Content Include="Assets\Scale1240.scale-400.png" />
+    <Content Include="Assets\Scale200.png" />
+    <Content Include="Assets\Scale284.scale-100.png" />
+    <Content Include="Assets\Scale284.scale-200.png" />
+    <Content Include="Assets\Scale284.scale-400.png" />
+    <Content Include="Assets\Scale48.scale-200.png" />
+    <Content Include="Assets\Scale50.scale-100.png" />
+    <Content Include="Assets\Scale50.scale-125.png" />
+    <Content Include="Assets\Scale50.scale-150.png" />
+    <Content Include="Assets\Scale50.scale-200.png" />
+    <Content Include="Assets\Scale50.scale-400.png" />
+    <Content Include="Assets\Scale75.png" />
+    <Content Include="Assets\Square150x150Logo.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-400.png" />
+    <Content Include="Assets\Square44x44Logo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.scale-400.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-400.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-400.png" />
     <Content Include="Images\laptop.jpg" />
     <Content Include="Images\medicine.jpg" />
     <Content Include="Images\sun1.jpg" />
+    <None Include="Package.StoreAssociation.xml" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -180,10 +207,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Page>
     <Page Include="Register.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="WelcomePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -218,6 +218,5 @@
       <RootProperty Name="Mode" />
     </RootType>
     <RootType FullName="MedicineTracker.Register" />
-    <RootType FullName="MedicineTracker.WelcomePage" />
   </Roots.RootTypes>
 </Roots>

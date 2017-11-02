@@ -1,0 +1,7 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-fr"
+"ResourceDimensions"		"language-fr"
+"ResourceDimensions"		"language-fr-fr"
+
+[Files]
+"C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\ARM\Release\split.language-fr.pri"			"resources.pri"

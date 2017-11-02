@@ -17,7 +17,7 @@
   <CacheFile>
     <FileName>Strings\fr\Resources.resw</FileName>
     <Checksum>16102110179912771821564729201204241161215</Checksum>
-    <ModifiedTime>2017-11-02T14:10:00.6321407+00:00</ModifiedTime>
+    <ModifiedTime>2017-11-02T22:45:59.9058455+00:00</ModifiedTime>
     <CacheFileType>LanguageResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
@@ -31,7 +31,7 @@
   <CacheFile>
     <FileName>Strings\es\Resources.resw</FileName>
     <Checksum>22388153151701538111720089801164575146217</Checksum>
-    <ModifiedTime>2017-11-02T16:53:56.3044922+00:00</ModifiedTime>
+    <ModifiedTime>2017-11-02T22:45:59.8973228+00:00</ModifiedTime>
     <CacheFileType>LanguageResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
@@ -45,7 +45,7 @@
   <CacheFile>
     <FileName>Strings\de\Resources.resw</FileName>
     <Checksum>4914621939161283112271289011942151222128</Checksum>
-    <ModifiedTime>2017-11-02T19:41:03.7081024+00:00</ModifiedTime>
+    <ModifiedTime>2017-11-02T22:45:59.8786308+00:00</ModifiedTime>
     <CacheFileType>LanguageResource</CacheFileType>
     <WarningMessage />
   </CacheFile>

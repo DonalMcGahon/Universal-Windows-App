@@ -180,11 +180,6 @@ namespace MedicineTracker
 
         #endregion
 
-        private void button2_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(WelcomePage));
-        }
-
         private void HamburgerButton_Click(object sender, RoutedEventArgs e)
         {
             MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;

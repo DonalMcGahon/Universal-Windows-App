@@ -1,0 +1,7 @@
+﻿[ResourceMetadata]
+"ResourceId"			"filemap.scale-150"
+"ResourceDimensions"		"scale-150"
+
+[Files]
+"C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\Upload\filemap.scale-150.pri"			"resources.pri"
+"C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\PackageUploadLayout\Assets\Scale50.scale-150.png"			"Assets\Scale50.scale-150.png"
