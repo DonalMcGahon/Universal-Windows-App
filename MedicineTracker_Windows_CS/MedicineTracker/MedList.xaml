@@ -50,7 +50,7 @@
                         <RowDefinition Height="561*"/>
                     </Grid.RowDefinitions>
 
-                    <TextBlock Foreground="#0094ff" x:Uid="MedTrackerList" FontFamily="Segoe UI Light" FontSize="35" Text="Medicine Tracker List" Margin="10,70,0,-50"></TextBlock>
+                    <TextBlock Foreground="#0094ff" x:Uid="MedTrackerList" HorizontalAlignment="Center" FontFamily="Segoe UI Light" FontSize="35" Text="Medicine Tracker List" Margin="10,70,0,-50"></TextBlock>
 
 
                     <ScrollViewer Grid.Row="1" Margin="10,54,0,245" 
@@ -58,7 +58,7 @@
                               VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
 
 
-                        <ListView Header="Checkbox    Patient     Med       Dose         Time         Date" x:Name="ListItems" Background="White" HorizontalAlignment="Left" Width="400" Height="257">
+                        <ListView Header="Checkbox    Patient     Med       Dose         Time         Date" x:Name="ListItems"  Background="White" HorizontalAlignment="Center" Width="400" Height="257">
                             <ListView.ItemTemplate>
                                 <DataTemplate>
                                     <Grid Width="400">

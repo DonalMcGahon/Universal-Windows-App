@@ -96,6 +96,7 @@
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
     <None Include="project.json" />
+    <PRIResource Include="Strings\es\Resources.resw" />
     <PRIResource Include="Strings\fr\Resources.resw" />
     <PRIResource Include="Strings\en-US\Resources.resw" />
   </ItemGroup>
@@ -195,6 +196,7 @@
     </SDKReference>
   </ItemGroup>
   <ItemGroup>
+    <XliffResource Include="MultilingualResources\MedicineTracker.es.xlf" />
     <XliffResource Include="MultilingualResources\MedicineTracker.fr.xlf" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

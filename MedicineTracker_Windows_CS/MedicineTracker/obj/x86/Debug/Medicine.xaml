@@ -46,9 +46,9 @@
             <SplitView.Content>
                 <Grid>
 
-                    <StackPanel x:ConnectionId='7' x:Name="addMedPanel" Background="Black" Orientation="Vertical" Margin="50,10,87,130">
+                    <StackPanel x:ConnectionId='7' x:Name="addMedPanel" Background="Black" HorizontalAlignment="Center" Orientation="Vertical" Margin="0,10,0,130">
                         <!--TitleGrid contains the name of the application and page title-->
-                        <Grid x:ConnectionId='8' x:Name="TitleGrid" Grid.Row="0" Grid.ColumnSpan="2" Margin="0,0,0,0">
+                        <Grid x:ConnectionId='8' x:Name="TitleGrid" Grid.Row="0" Grid.ColumnSpan="2" Margin="20,0,20,0">
                             <StackPanel>
                                 <TextBlock Foreground="#0094ff" x:Uid="MedTracker" FontFamily="Segoe UI Light" FontSize="35" Text="Medicine Tracker" Margin="0,0,0,5"></TextBlock>
                             </StackPanel>
