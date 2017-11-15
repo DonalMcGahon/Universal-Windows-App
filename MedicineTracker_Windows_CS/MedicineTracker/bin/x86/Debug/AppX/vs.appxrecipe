@@ -28,7 +28,7 @@
     <AppXManifest Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Debug\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-11-15T15:45:07.618</Modified>
+      <Modified>2017-11-15T16:15:17.972</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -197,15 +197,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Debug\ilc\MedicineTracker.dll">
       <PackagePath>MedicineTracker.dll</PackagePath>
-      <Modified>2017-11-15T15:45:06.403</Modified>
+      <Modified>2017-11-15T16:15:16.720</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Debug\ilc\MedicineTracker.exe">
       <PackagePath>MedicineTracker.exe</PackagePath>
-      <Modified>2017-11-15T15:45:07.590</Modified>
+      <Modified>2017-11-15T16:15:17.936</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Debug\ilc\MedicineTracker.pdb">
       <PackagePath>MedicineTracker.pdb</PackagePath>
-      <Modified>2017-11-15T15:45:07.587</Modified>
+      <Modified>2017-11-15T16:15:17.934</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Debug\ilc\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
@@ -218,7 +218,7 @@
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Debug\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-11-15T15:45:08.865</Modified>
+      <Modified>2017-11-15T16:15:19.151</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Debug\ilc\sqlite3.dll">
       <PackagePath>sqlite3.dll</PackagePath>
@@ -234,11 +234,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Debug\ilc\_Resources\0.rsrc">
       <PackagePath>_Resources\0.rsrc</PackagePath>
-      <Modified>2017-11-15T15:44:46.706</Modified>
+      <Modified>2017-11-15T16:14:56.966</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Debug\ilc\_Resources\index.txt">
       <PackagePath>_Resources\index.txt</PackagePath>
-      <Modified>2017-11-15T15:44:46.707</Modified>
+      <Modified>2017-11-15T16:14:56.966</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

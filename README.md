@@ -13,7 +13,7 @@
 * The user can also add appointments to their calender on their machine.
 * They can enter an appointment name, location, details, time and date and all this information is stored onto there calendar on the machine they are using.
 
-## User Guide
+# User Guide
 When you launch the app you are firstly greeted with a Login page, where registered users of the app can Login with their credentials. To register with the app is very simple.
 
 ### Registering account with app:
@@ -65,6 +65,12 @@ The user can sign out of the app at any time by using the sign out option in the
 ![hamburgerview](https://user-images.githubusercontent.com/14197773/32846412-1795c394-ca1f-11e7-8ff2-fcfba782cdaa.png)
 
 ## Multilingual
+
+My app is Multilingual, which means it is fully functional in many languages. The languages it is able to work in are English, French, Polish, German and Spanish.
+Fot the app to work in any of these all you have to do is have your operating systems default language as one of those languages.
+Below is an example of the application running in Spanish.
+
+![spanish](https://user-images.githubusercontent.com/14197773/32846879-542d01fe-ca20-11e7-9464-f873dd795971.png)
 
 ## Button Style
 
