@@ -64,6 +64,10 @@ The user can sign out of the app at any time by using the sign out option in the
 
 ![hamburgerview](https://user-images.githubusercontent.com/14197773/32846412-1795c394-ca1f-11e7-8ff2-fcfba782cdaa.png)
 
+
+## Certification
+
+
 ## Multilingual
 
 My app is Multilingual, which means it is fully functional in many languages. The languages it is able to work in are English, French, Polish, German and Spanish.
@@ -74,7 +78,7 @@ Below is an example of the application running in Spanish.
 
 ## Button Style
 
-For the button in my project I followed the following [tutorial]().
+For the buttons in my project I followed the following [tutorial]().
 The buttons in my app give the effect as if they are being pressed down.
 
 ## Azure
