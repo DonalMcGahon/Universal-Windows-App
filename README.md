@@ -1,22 +1,10 @@
 # Mobile Applications Development
 # Year 4, BSc (hons) in Software Development
 
-## Module Project – 60% Weighting
-### Create a Windows 10 UWP App. The application should incorporate the following elements:
-* A responsive UI across the Windows 10 devices. There are some available for testing and
-this includes the IoT core, mobile devices, tablet and PC. This includes Visual State
-Management and using available SDKs for individual device types.
-* A UI that has been well designed and is fit for purpose. User Experience should be carefully
-considered while developing the application. The User Experience should be consistent
-across devices.
-* Mobile services for data storage and retrieval. The cloud service does not have to be written
-in C# to be able to interact with a UWP. The preferred cloud to use is Azure.
-* Use of the MVVM design pattern in the development approach.
-
 ## Windows Universal App Description
 * This Windows Universal App is called Medicine Tracker.
 * The idea behind the application is to allow users of the app to keep track of when they have to take their medication or when to give medication to others.
-* The user is greated with a login page once they open the app. They will have to navigate to the register page and enter a username, password and email (optional) to register to the app.
+* The user is greeted with a login page once they open the app. They will have to navigate to the register page and enter a username, password and email (optional) to register with the app.
 * They then can use those details to login.
 * The user can enter details about medication for example who's it for, time to be taken and date to be taken.
 * This information is stored on the cloud platform Azure.
@@ -24,3 +12,64 @@ in C# to be able to interact with a UWP. The preferred cloud to use is Azure.
 * Once they have taken or given the medication, they can tick it off by ticking the checkbox beside each entry.
 * The user can also add appointments to their calender on their machine.
 * They can enter an appointment name, location, details, time and date and all this information is stored onto there calendar on the machine they are using.
+
+## User Guide
+When you launch the app you are firstly greeted with a Login page, where registered users of the app can Login with their credentials. To register with the app is very simple.
+
+### Registering account with app:
+
+To register an account with the app you simply press the register button on the Login page. You are then brought to the Registration page, where you enter your Username, Password and Email address and click register when finished.
+You will then be brought back to the Login page.
+
+![reg](https://user-images.githubusercontent.com/14197773/32846297-c88647b0-ca1e-11e7-976a-4332770dc196.png)
+
+### Login to the app:
+
+With the credentials you entered when registering with the app, you can now use those credentials to log in to the app.
+Enter your username and password and click the Log In button.
+You are successfully logged in.
+
+![login](https://user-images.githubusercontent.com/14197773/32846313-d48e34be-ca1e-11e7-8d9e-1e474fe9de12.png)
+
+### Medicine Tracker Page
+
+On this page you can enter details about who the medication is for, the name of the medication, dosage, time and date to be taken.
+Once all entered press the add button and all information will be stored on the medication list page.
+
+![medentry](https://user-images.githubusercontent.com/14197773/32846329-e202c7b8-ca1e-11e7-92bf-822e560dd71f.png)
+
+### Medication List Page
+
+On this page the list of all information the user has entered will be displayed.
+This user can stroll up and down the information and use the checkboxes to get rid of any entry that has been completed.
+
+![medlist](https://user-images.githubusercontent.com/14197773/32846351-f0f93fb8-ca1e-11e7-9079-1ed8d0b0e3cf.png)
+
+### Appointment Page
+
+This page allows the user to enter an appointment to the calendar app of their operating system.
+To do this, the user enters an appointment name, location, details, time, date and duration and click the Add button.
+This will create the appointment in the Calendar app and the user will have the choice to Accept it or Cancel it.
+The user can press the Calendar button which will bring them to their Calendar app.
+Below is an example of an appointment.
+
+![appoint](https://user-images.githubusercontent.com/14197773/32846369-fad9f842-ca1e-11e7-8c54-ea94a22fc991.png)
+![appointaccept](https://user-images.githubusercontent.com/14197773/32846386-0225e412-ca1f-11e7-9fd8-0eb51734d6a2.png)
+![appointmentcal](https://user-images.githubusercontent.com/14197773/32846399-095bd66a-ca1f-11e7-8480-467473cff4ed.png)
+
+
+### Sign Out
+
+The user can sign out of the app at any time by using the sign out option in the hamburger view as seen below.
+
+![hamburgerview](https://user-images.githubusercontent.com/14197773/32846412-1795c394-ca1f-11e7-8ff2-fcfba782cdaa.png)
+
+## Multilingual
+
+## Button Style
+
+## References
+
+## Azure
+
+## SQLite Database
