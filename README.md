@@ -74,8 +74,22 @@ Below is an example of the application running in Spanish.
 
 ## Button Style
 
-## References
+For the button in my project I followed the following [tutorial]().
+The buttons in my app give the effect as if they are being pressed down.
 
 ## Azure
 
+To store all the user information about the medication, I used the cloud service called Azure.
+If you want to learn more about Azure click [here](https://azure.microsoft.com/en-us/)
+
 ## SQLite Database
+
+For the users login credentials I used a SQLite database to store them.
+
+![user database](https://cloud.githubusercontent.com/assets/14197773/25071507/d2dcf890-22b1-11e7-9f29-b41c04c46744.png)
+
+The above is an example of the database used to store user log in information. The UserName is the username the user entered, in this case the username is "donal123".
+The Password is the password the user entered, in this case again it is "donal123".
+Email represents the email associated with the user, the user entered "donal123@gmail.com".
+
+## References
