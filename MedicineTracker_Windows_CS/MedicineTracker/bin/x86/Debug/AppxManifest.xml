@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="10938DonalMcGahon.MedicineTracker" Publisher="CN=dmcga" Version="1.1.7.0" ProcessorArchitecture="x86" />
+  <Identity Name="10938DonalMcGahon.MedicineTracker" Publisher="CN=7A4808B8-5FED-40E2-B928-A6FA3C8909AB" Version="1.1.10.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="b7657ddb-b2f7-4885-9e64-d4f2feaf51e1" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Medicine Tracker</DisplayName>
