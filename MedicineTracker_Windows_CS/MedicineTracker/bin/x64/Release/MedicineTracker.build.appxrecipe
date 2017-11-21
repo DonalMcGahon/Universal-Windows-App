@@ -22,6 +22,23 @@
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x64\Release\ilc\Assets\24.png">
+      <PackagePath>Assets\24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x64\Release\ilc\Assets\48.scale-200.png">
+      <PackagePath>Assets\48.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x64\Release\ilc\Assets\48.scale-400.png">
+      <PackagePath>Assets\48.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x64\Release\ilc\Assets\96.scale-200.png">
+      <PackagePath>Assets\96.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x64\Release\ilc\Assets\96.scale-400.png">
+      <PackagePath>Assets\96.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
@@ -61,7 +78,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x64\Release\ilc\Assets\Scale48.scale-200.png">
       <PackagePath>Assets\Scale48.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x64\Release\ilc\Assets\Scale48.scale-400.png">
+      <PackagePath>Assets\Scale48.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x64\Release\ilc\Assets\Scale50.scale-100.png">
       <PackagePath>Assets\Scale50.scale-100.png</PackagePath>

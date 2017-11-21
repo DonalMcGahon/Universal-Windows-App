@@ -13,6 +13,11 @@ C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_W
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Release\AppxManifest.xml
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Release\ilc\Adapters.g.cs
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Release\ilc\AssemblyInfo.g.cs
+C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Release\ilc\Assets\24.png
+C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Release\ilc\Assets\48.scale-200.png
+C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Release\ilc\Assets\48.scale-400.png
+C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Release\ilc\Assets\96.scale-200.png
+C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Release\ilc\Assets\96.scale-400.png
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Release\ilc\Assets\medScale1240x600.scale-200.jpg
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Release\ilc\Assets\Scale100.png
@@ -24,6 +29,7 @@ C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_W
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Release\ilc\Assets\Scale284.scale-200.png
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Release\ilc\Assets\Scale284.scale-400.png
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Release\ilc\Assets\Scale48.scale-200.png
+C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Release\ilc\Assets\Scale48.scale-400.png
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Release\ilc\Assets\Scale50.scale-100.png
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Release\ilc\Assets\Scale50.scale-125.png
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x86\Release\ilc\Assets\Scale50.scale-150.png
@@ -377,10 +383,11 @@ C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_W
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\in\clrcompression.dll
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\in\Microsoft.Graphics.Canvas.dll
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\in\sqlite3.dll
-C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\in\Assets\medScale1240x600.scale-200.jpg
-C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\in\Images\laptop.jpg
-C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\in\Images\medicine.jpg
-C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\in\Images\sun1.jpg
+C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\in\Assets\24.png
+C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\in\Assets\48.scale-200.png
+C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\in\Assets\48.scale-400.png
+C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\in\Assets\96.scale-200.png
+C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\in\Assets\96.scale-400.png
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\in\Assets\Scale100.png
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\in\Assets\Scale1240.scale-100.png
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\in\Assets\Scale1240.scale-200.png
@@ -390,6 +397,7 @@ C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_W
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\in\Assets\Scale284.scale-200.png
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\in\Assets\Scale284.scale-400.png
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\in\Assets\Scale48.scale-200.png
+C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\in\Assets\Scale48.scale-400.png
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\in\Assets\Scale50.scale-100.png
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\in\Assets\Scale50.scale-125.png
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\in\Assets\Scale50.scale-150.png
@@ -411,6 +419,10 @@ C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_W
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\in\Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\in\Assets\StoreLogo.png
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\in\Assets\Wide310x150Logo.scale-200.png
+C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\in\Assets\medScale1240x600.scale-200.jpg
+C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\in\Images\laptop.jpg
+C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\in\Images\medicine.jpg
+C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\in\Images\sun1.jpg
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc.MedicineTracker.rsp
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\intermediate\BuildInfo\BuildInfo.rc
 C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x86\Release\ilc\intermediate\BuildInfo\BuildInfo.res

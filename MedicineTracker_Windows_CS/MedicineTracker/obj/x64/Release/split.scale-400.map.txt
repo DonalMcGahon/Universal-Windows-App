@@ -9,5 +9,8 @@
 "C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x64\Release\PackageLayout\Assets\Square44x44Logo.scale-400.png"			"Assets\Square44x44Logo.scale-400.png"
 "C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x64\Release\PackageLayout\Assets\Square150x150Logo.scale-400.png"			"Assets\Square150x150Logo.scale-400.png"
 "C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x64\Release\PackageLayout\Assets\Scale50.scale-400.png"			"Assets\Scale50.scale-400.png"
+"C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x64\Release\PackageLayout\Assets\Scale48.scale-400.png"			"Assets\Scale48.scale-400.png"
 "C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x64\Release\PackageLayout\Assets\Scale284.scale-400.png"			"Assets\Scale284.scale-400.png"
 "C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x64\Release\PackageLayout\Assets\Scale1240.scale-400.png"			"Assets\Scale1240.scale-400.png"
+"C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x64\Release\PackageLayout\Assets\96.scale-400.png"			"Assets\96.scale-400.png"
+"C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\x64\Release\PackageLayout\Assets\48.scale-400.png"			"Assets\48.scale-400.png"

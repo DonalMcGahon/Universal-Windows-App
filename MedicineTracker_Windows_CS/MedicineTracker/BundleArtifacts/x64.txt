@@ -1,2 +1,2 @@
-MainPackage=C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x64\Release\MedicineTracker_1.1.11.0_x64.appx
-SymbolPackage=C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\AppPackages\MedicineTracker_1.1.11.0_Test\MedicineTracker_1.1.11.0_x64.appxsym
+MainPackage=C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\bin\x64\Release\MedicineTracker_1.1.13.0_x64.appx
+SymbolPackage=C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\AppPackages\MedicineTracker_1.1.13.0_Test\MedicineTracker_1.1.13.0_x64.appxsym

@@ -30,3 +30,6 @@
 "C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\ARM\Release\PackageLayout\Assets\Scale100.png"			"Assets\Scale100.png"
 "C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\ARM\Release\PackageLayout\Assets\medScale1240x600.scale-200.jpg"			"Assets\medScale1240x600.scale-200.jpg"
 "C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\ARM\Release\PackageLayout\Assets\LockScreenLogo.scale-200.png"			"Assets\LockScreenLogo.scale-200.png"
+"C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\ARM\Release\PackageLayout\Assets\96.scale-200.png"			"Assets\96.scale-200.png"
+"C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\ARM\Release\PackageLayout\Assets\48.scale-200.png"			"Assets\48.scale-200.png"
+"C:\Users\dmcga\OneDrive\Documents\GitHub\Universal-Windows-App\MedicineTracker_Windows_CS\MedicineTracker\obj\ARM\Release\PackageLayout\Assets\24.png"			"Assets\24.png"

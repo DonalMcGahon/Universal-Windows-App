@@ -49,6 +49,21 @@
 				</Candidate>
 			</NamedResource>
 			<ResourceMapSubtree name="Assets">
+				<NamedResource name="24.png" uri="ms-resource://10938DonalMcGahon.MedicineTracker/Files/Assets/24.png">
+					<Candidate type="Path">
+						<Value>Assets\24.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="48.png" uri="ms-resource://10938DonalMcGahon.MedicineTracker/Files/Assets/48.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\48.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="96.png" uri="ms-resource://10938DonalMcGahon.MedicineTracker/Files/Assets/96.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\96.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
 				<NamedResource name="LockScreenLogo.png" uri="ms-resource://10938DonalMcGahon.MedicineTracker/Files/Assets/LockScreenLogo.png">
 					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
 						<Value>Assets\LockScreenLogo.scale-200.png</Value>
