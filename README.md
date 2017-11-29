@@ -22,4 +22,3 @@
 1. [Button Style](https://github.com/DonalMcGahon/Universal-Windows-App/wiki/Button-Style)
 1. [Azure](https://github.com/DonalMcGahon/Universal-Windows-App/wiki/Azure)
 1. [SQLite Database](https://github.com/DonalMcGahon/Universal-Windows-App/wiki/SQLite-Database)
-1. [References](https://github.com/DonalMcGahon/Universal-Windows-App/wiki/References)
