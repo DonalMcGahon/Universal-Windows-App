@@ -16,8 +16,6 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
-
 namespace MedicineTracker
 {
     /// <summary>
@@ -47,8 +45,8 @@ namespace MedicineTracker
 
         private async Task InsertTodoItem(TodoItem todoItem)
         {
-            // This code inserts a new TodoItem into the database. After the operation completes
-            // and the mobile app backend has assigned an id, the item is added to the CollectionView.
+            // This code inserts a new Medicine info into the database. After the operation completes
+            // and the mobile app backend has assigned an id, the medication information is added to the CollectionView.
             await todoTable.InsertAsync(todoItem);
             items.Add(todoItem);
 
@@ -62,8 +60,7 @@ namespace MedicineTracker
             MobileServiceInvalidOperationException exception = null;
             try
             {
-                // This code refreshes the entries in the list view by querying the TodoItems table.
-                // The query excludes completed TodoItems.
+                // This code refreshes the entries in the list view
                 items = await todoTable
                     .Where(todoItem => todoItem.Complete == false)
                     .ToCollectionAsync();
@@ -86,8 +83,6 @@ namespace MedicineTracker
 
         private async Task UpdateCheckedTodoItem(TodoItem item)
         {
-            // This code takes a freshly completed TodoItem and updates the database.
-            // After the MobileService client responds, the item is removed from the list.
             await todoTable.UpdateAsync(item);
             items.Remove(item);
             //ListItems.Focus(Windows.UI.Xaml.FocusState.Unfocused);
@@ -109,6 +104,7 @@ namespace MedicineTracker
             //ButtonRefresh.IsEnabled = true;
         }
 
+        // Add Button, adds all medication information to the database
         private async void ButtonSave_Click(object sender, RoutedEventArgs e)
         {
             var todoItem = new TodoItem
@@ -126,13 +122,6 @@ namespace MedicineTracker
             textBox_Copy.Text = "";
             await InsertTodoItem(todoItem);
             this.Frame.Navigate(typeof(MedList));
-        }
-
-        private async void CheckBoxComplete_Checked(object sender, RoutedEventArgs e)
-        {
-            CheckBox cb = (CheckBox)sender;
-            TodoItem item = cb.DataContext as TodoItem;
-            await UpdateCheckedTodoItem(item);
         }
 
         private void TextInput_KeyDown(object sender, Windows.UI.Xaml.Input.KeyRoutedEventArgs e)
@@ -179,7 +168,7 @@ namespace MedicineTracker
         }
 
         #endregion
-
+        // Hamburger View Buttons to other pages
         private void HamburgerButton_Click(object sender, RoutedEventArgs e)
         {
             MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;

@@ -16,8 +16,6 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
-
 namespace MedicineTracker
 {
     /// <summary>
@@ -47,8 +45,6 @@ namespace MedicineTracker
 
         private async Task InsertTodoItem(TodoItem todoItem)
         {
-            // This code inserts a new TodoItem into the database. After the operation completes
-            // and the mobile app backend has assigned an id, the item is added to the CollectionView.
             await todoTable.InsertAsync(todoItem);
             items.Add(todoItem);
 
@@ -62,8 +58,7 @@ namespace MedicineTracker
             MobileServiceInvalidOperationException exception = null;
             try
             {
-                // This code refreshes the entries in the list view by querying the TodoItems table.
-                // The query excludes completed TodoItems.
+                // This code refreshes the entries in the medicine list view.
                 items = await todoTable
                     .Where(todoItem => todoItem.Complete == false)
                     .ToCollectionAsync();
@@ -85,8 +80,8 @@ namespace MedicineTracker
 
         private async Task UpdateCheckedTodoItem(TodoItem item)
         {
-            // This code takes a freshly completed TodoItem and updates the database.
-            // After the MobileService client responds, the item is removed from the list.
+            // This code takes a freshly completed medicine list and updates the database.
+            // After the MobileService client responds, the medicine info is removed from the list.
             await todoTable.UpdateAsync(item);
             items.Remove(item);
             ListItems.Focus(Windows.UI.Xaml.FocusState.Unfocused);
@@ -114,7 +109,7 @@ namespace MedicineTracker
 
             //ButtonRefresh.IsEnabled = true;
         }
-
+        // Hamburger View Buttons to other pages
         private void HamburgerButton_Click(object sender, RoutedEventArgs e)
         {
             MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;

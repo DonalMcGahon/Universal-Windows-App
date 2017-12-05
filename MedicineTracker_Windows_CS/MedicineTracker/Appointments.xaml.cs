@@ -15,8 +15,6 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
-
 namespace MedicineTracker
 {
     /// <summary>
@@ -65,7 +63,7 @@ namespace MedicineTracker
             // Opens Calendar App on the Current Date and Time
             await AppointmentManager.ShowTimeFrameAsync(StartDate.Date, StartTime.Time);
         }
-
+        // Hamburger View Buttons to other pages
         private void HamburgerButton_Click(object sender, RoutedEventArgs e)
         {
             MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
